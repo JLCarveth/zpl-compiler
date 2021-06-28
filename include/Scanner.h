@@ -191,8 +191,8 @@ TO_DO 9: Adjust your functions'definitions
 
 /* Static (local) function  prototypes */
 ziro_int startScanner(BufferPointer psc_buf);
-static ziro_int nextClass(ziro_char c);         /* character class function */
-static ziro_int nextState(ziro_int state, ziro_char c); /* state machine function */
+ziro_int nextClass(ziro_flag c);         /* character class function */
+ziro_int nextState(ziro_int state, ziro_char c); /* state machine function */
 
 /*
 -------------------------------------------------

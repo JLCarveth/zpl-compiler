@@ -1,5 +1,5 @@
 # Tests the Scanner against a set of input files
-COMPILER=out/ZiroCompiler
+COMPILER=bin/ZiroCompiler
 INPUT_DIR=input/
 OUTPUT_DIR=out/
 NUM_TESTS=$(ls $INPUT_DIR | wc -l)
@@ -18,6 +18,7 @@ printf "* %-80s *\n" "Version 0.1.0"
 printf "====================================================================================\n"
 
 printf "* %-80s *\n" "Beginning Zero Compiler tests ($NUM_TESTS)..."
+mkdir -p $OUTPUT_DIR
 # For each of the input test files, 
 for file in $(ls input/)
 do
