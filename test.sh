@@ -17,19 +17,19 @@ printf "* %-80s *\n" "Made by John L. Carveth, 2021"
 printf "* %-80s *\n" "Version 0.1.0"
 printf "====================================================================================\n"
 
-printf "Beginning Zero Compiler tests ($NUM_TESTS)...\n"
+printf "* %-80s *\n" "Beginning Zero Compiler tests ($NUM_TESTS)..."
 # For each of the input test files, 
 for file in $(ls input/)
 do
-    printf "Testing $file\n"
+    printf "* %-80s *\n" "Testing $file"
     $COMPILER 1 $INPUT_DIR$file 1> $OUTPUT_DIR$file.out 2> $OUTPUT_DIR$file.err
     if [ ! -s $OUTPUT_DIR$file.err ]
     then
         SUCCESSFUL_TESTS=$((SUCCESSFUL_TESTS+1))
     else
-        printf "Testing $file has failed. See $OUTPUT_DIR$file.err for more information."
+        printf "* %-80s *\n" "Testing $file has failed. See $OUTPUT_DIR$file.err for more information."
     fi
 done
-# TODO Examine contents of error files, if empty then test has passed.
-printf "Completed $NUM_TESTS Tests.\n"
-printf "$SUCCESSFUL_TESTS/2 Tests passed.\n"
+printf "* %-80s *\n" "Completed $NUM_TESTS Tests."
+printf "* %-80s *\n" "$SUCCESSFUL_TESTS/2 Tests passed."
+printf "====================================================================================\n"
