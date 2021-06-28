@@ -1,0 +1,30 @@
+[Debug mode: 0]
+Reading file input/hello_world.z ....Please wait
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  100
+The current size of the buffer is:  83
+
+Printing buffer contents:
+
+
+Scanning source file...
+
+Token		Attribute
+----------------------------------
+KW_T		program
+ID_T		HelloWor
+SEP_T
+KW_T		write
+SEP_T
+STR_T		0	 Hello World
+SEP_T
+SEP_T
+SEP_T
+SEOF_T		0	
+
+Printing string table...
+----------------------------------
+
+----------------------------------
