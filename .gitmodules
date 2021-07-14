@@ -1,0 +1,3 @@
+[submodule "docs"]
+	path = docs
+	url = http://192.168.1.175:3069/JLCarveth/zpl-docs.git
