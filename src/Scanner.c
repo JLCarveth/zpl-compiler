@@ -372,7 +372,14 @@ ziro_int nextState(ziro_int state, ziro_char c)
 {
     ziro_int col;
     ziro_int next;
-    col = nextClass(c);
+
+    if (state == 0 && (c == 'e' || c == 'E'))
+        return 10;
+    if (state == 5 && (c == 'e' || c == 'E'))
+        return 6;
+    if (state == 10 && (c == 'e' || c == 'E'))
+        return 10;
+        col = nextClass(c);
     next = transitionTable[state][col];
     if (DEBUG)
         printf("Input symbol: %c Row: %d Column: %d Next: %d \n", c, state, col, next);

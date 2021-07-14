@@ -44,4 +44,7 @@ docs:
 	mkdir -p $(DOC_DIR)/out
 	mdtodoc $(DOC) --dest "docs/out" --layout "page" --theme "github" --highlight-style "atom-one-light"
 
+test:
+	./test.sh
+
 -include $(OBJ:.o=.d)
