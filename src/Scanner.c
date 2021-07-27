@@ -94,7 +94,7 @@ ziro_int startScanner(BufferPointer psc_buf)
 Token tokenizer(void)
 {
     Token currentToken = {0}; /* token to return after pattern recognition. Set all structure members to 0 */
-    ziro_char c;              /* input symbol */
+    ziro_flag c;              /* input symbol */
     ziro_int state = 0;       /* initial state of the FSM */
     ziro_int lexStart;        /* start offset of a lexeme in the input char buffer (array) */
     ziro_int lexEnd;          /* end offset of a lexeme in the input char buffer (array)*/
@@ -379,7 +379,7 @@ ziro_int nextState(ziro_int state, ziro_char c)
         return 6;
     if (state == 10 && (c == 'e' || c == 'E'))
         return 10;
-        col = nextClass(c);
+    col = nextClass(c);
     next = transitionTable[state][col];
     if (DEBUG)
         printf("Input symbol: %c Row: %d Column: %d Next: %d \n", c, state, col, next);
@@ -402,7 +402,7 @@ ziro_int nextState(ziro_int state, ziro_char c)
 ************************************************************/
 /* TO_DO 18: Use your column configuration */
 
-ziro_int nextClass(ziro_char c)
+ziro_int nextClass(ziro_flag c)
 {
     ziro_int val = -1;
     /* Adjust the logic to return next column in TT */
@@ -510,7 +510,7 @@ Token funcFPL(ziro_char lexeme[])
 {
     Token currentToken = {0};
     ziro_double tdouble = atof(lexeme);
-    if (tdouble == 0.0 || tdouble >= FLT_MIN && tdouble <= FLT_MAX)
+    if (tdouble == 0.0 || ((tdouble >= FLT_MIN) && (tdouble <= FLT_MAX)))
     {
         currentToken.code = FPL_T;
         currentToken.attribute.floatValue = (ziro_float)tdouble;

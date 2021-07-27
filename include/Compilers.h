@@ -17,8 +17,6 @@
 #ifndef COMPILERS_H_
 #define COMPILERS_H_
 
-#define DEBUG 0
-
 /*
 ------------------------------------------------------------
 Buffer Modes

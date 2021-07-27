@@ -1,0 +1,4682 @@
+argv[0] = bin/ZiroCompiler
+argv[1] = 1
+argv[2] = input/large.z
+[Debug mode: 1]
+Reading file input/large.z ....Please wait
+
+................
+* New size: 1000
+................
+
+................
+* New size: 10000
+................
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  10000
+The current size of the buffer is:  3354
+
+Printing buffer contents:
+
+
+Scanning source file...
+
+Token		Attribute
+----------------------------------
+Input symbol: p Row: 0 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: o Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: a Row: 10 Column: 0 Next: 10 
+Input symbol: m Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+KW_T		program
+Input symbol: L Row: 0 Column: 0 Next: 10 
+Input symbol: a Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol: S Row: 10 Column: 0 Next: 10 
+Input symbol: t Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: i Row: 10 Column: 0 Next: 10 
+Input symbol: n Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+ID_T		LargeStr
+SEP_T
+Input symbol: S Row: 0 Column: 0 Next: 10 
+Input symbol: t Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: i Row: 10 Column: 0 Next: 10 
+Input symbol: n Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+KW_T		String
+Input symbol: m Row: 0 Column: 0 Next: 10 
+Input symbol: y Row: 10 Column: 0 Next: 10 
+Input symbol: L Row: 10 Column: 0 Next: 10 
+Input symbol: o Row: 10 Column: 0 Next: 10 
+Input symbol: n Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol: S Row: 10 Column: 0 Next: 10 
+Input symbol: t Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: i Row: 10 Column: 0 Next: 10 
+Input symbol: n Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+ID_T		myLongSt
+ASS_OP_T
+Input symbol: " Row: 0 Column: 3 Next: 12 
+Input symbol: L Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: F Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: L Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: x Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: U Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: F Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: x Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: x Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: E Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: P Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: U Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: S Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: V Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: x Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: A Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: E Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: Q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: A Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: C Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: O Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: S Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: P Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: A Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: Q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: C Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: F Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: P Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: Q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: U Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: D Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: Q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: S Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: A Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: 
+ Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: P Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: F Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: Q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: S Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: N Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: q Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: P Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: v Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: f Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: j Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: x Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: I Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: M Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: c Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: b Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: h Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: , Row: 12 Column: 7 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: g Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: t Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: n Row: 12 Column: 0 Next: 12 
+Input symbol: a Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: i Row: 12 Column: 0 Next: 12 
+Input symbol: p Row: 12 Column: 0 Next: 12 
+Input symbol: s Row: 12 Column: 0 Next: 12 
+Input symbol: u Row: 12 Column: 0 Next: 12 
+Input symbol: m Row: 12 Column: 0 Next: 12 
+Input symbol: . Row: 12 Column: 2 Next: 12 
+Input symbol: " Row: 12 Column: 3 Next: 13 
+
+................
+* New size: 110
+................
+
+................
+* New size: 120
+................
+
+................
+* New size: 130
+................
+
+................
+* New size: 140
+................
+
+................
+* New size: 150
+................
+
+................
+* New size: 160
+................
+
+................
+* New size: 170
+................
+
+................
+* New size: 180
+................
+
+................
+* New size: 190
+................
+
+................
+* New size: 200
+................
+
+................
+* New size: 210
+................
+
+................
+* New size: 220
+................
+
+................
+* New size: 230
+................
+
+................
+* New size: 240
+................
+
+................
+* New size: 250
+................
+
+................
+* New size: 260
+................
+
+................
+* New size: 270
+................
+
+................
+* New size: 280
+................
+
+................
+* New size: 290
+................
+
+................
+* New size: 300
+................
+
+................
+* New size: 310
+................
+
+................
+* New size: 320
+................
+
+................
+* New size: 330
+................
+
+................
+* New size: 340
+................
+
+................
+* New size: 350
+................
+
+................
+* New size: 360
+................
+
+................
+* New size: 370
+................
+
+................
+* New size: 380
+................
+
+................
+* New size: 390
+................
+
+................
+* New size: 400
+................
+
+................
+* New size: 410
+................
+
+................
+* New size: 420
+................
+
+................
+* New size: 430
+................
+
+................
+* New size: 440
+................
+
+................
+* New size: 450
+................
+
+................
+* New size: 460
+................
+
+................
+* New size: 470
+................
+
+................
+* New size: 480
+................
+
+................
+* New size: 490
+................
+
+................
+* New size: 500
+................
+
+................
+* New size: 510
+................
+
+................
+* New size: 520
+................
+
+................
+* New size: 530
+................
+
+................
+* New size: 540
+................
+
+................
+* New size: 550
+................
+
+................
+* New size: 560
+................
+
+................
+* New size: 570
+................
+
+................
+* New size: 580
+................
+
+................
+* New size: 590
+................
+
+................
+* New size: 600
+................
+
+................
+* New size: 610
+................
+
+................
+* New size: 620
+................
+
+................
+* New size: 630
+................
+
+................
+* New size: 640
+................
+
+................
+* New size: 650
+................
+
+................
+* New size: 660
+................
+
+................
+* New size: 670
+................
+
+................
+* New size: 680
+................
+
+................
+* New size: 690
+................
+
+................
+* New size: 700
+................
+
+................
+* New size: 710
+................
+
+................
+* New size: 720
+................
+
+................
+* New size: 730
+................
+
+................
+* New size: 740
+................
+
+................
+* New size: 750
+................
+
+................
+* New size: 760
+................
+
+................
+* New size: 770
+................
+
+................
+* New size: 780
+................
+
+................
+* New size: 790
+................
+
+................
+* New size: 800
+................
+
+................
+* New size: 810
+................
+
+................
+* New size: 820
+................
+
+................
+* New size: 830
+................
+
+................
+* New size: 840
+................
+
+................
+* New size: 850
+................
+
+................
+* New size: 860
+................
+
+................
+* New size: 870
+................
+
+................
+* New size: 880
+................
+
+................
+* New size: 890
+................
+
+................
+* New size: 900
+................
+
+................
+* New size: 910
+................
+
+................
+* New size: 920
+................
+
+................
+* New size: 930
+................
+
+................
+* New size: 940
+................
+
+................
+* New size: 950
+................
+
+................
+* New size: 960
+................
+
+................
+* New size: 970
+................
+
+................
+* New size: 980
+................
+
+................
+* New size: 990
+................
+
+................
+* New size: 1000
+................
+
+................
+* New size: 1010
+................
+
+................
+* New size: 1020
+................
+
+................
+* New size: 1030
+................
+
+................
+* New size: 1040
+................
+
+................
+* New size: 1050
+................
+
+................
+* New size: 1060
+................
+
+................
+* New size: 1070
+................
+
+................
+* New size: 1080
+................
+
+................
+* New size: 1090
+................
+
+................
+* New size: 1100
+................
+
+................
+* New size: 1110
+................
+
+................
+* New size: 1120
+................
+
+................
+* New size: 1130
+................
+
+................
+* New size: 1140
+................
+
+................
+* New size: 1150
+................
+
+................
+* New size: 1160
+................
+
+................
+* New size: 1170
+................
+
+................
+* New size: 1180
+................
+
+................
+* New size: 1190
+................
+
+................
+* New size: 1200
+................
+
+................
+* New size: 1210
+................
+
+................
+* New size: 1220
+................
+
+................
+* New size: 1230
+................
+
+................
+* New size: 1240
+................
+
+................
+* New size: 1250
+................
+
+................
+* New size: 1260
+................
+
+................
+* New size: 1270
+................
+
+................
+* New size: 1280
+................
+
+................
+* New size: 1290
+................
+
+................
+* New size: 1300
+................
+
+................
+* New size: 1310
+................
+
+................
+* New size: 1320
+................
+
+................
+* New size: 1330
+................
+
+................
+* New size: 1340
+................
+
+................
+* New size: 1350
+................
+
+................
+* New size: 1360
+................
+
+................
+* New size: 1370
+................
+
+................
+* New size: 1380
+................
+
+................
+* New size: 1390
+................
+
+................
+* New size: 1400
+................
+
+................
+* New size: 1410
+................
+
+................
+* New size: 1420
+................
+
+................
+* New size: 1430
+................
+
+................
+* New size: 1440
+................
+
+................
+* New size: 1450
+................
+
+................
+* New size: 1460
+................
+
+................
+* New size: 1470
+................
+
+................
+* New size: 1480
+................
+
+................
+* New size: 1490
+................
+
+................
+* New size: 1500
+................
+
+................
+* New size: 1510
+................
+
+................
+* New size: 1520
+................
+
+................
+* New size: 1530
+................
+
+................
+* New size: 1540
+................
+
+................
+* New size: 1550
+................
+
+................
+* New size: 1560
+................
+
+................
+* New size: 1570
+................
+
+................
+* New size: 1580
+................
+
+................
+* New size: 1590
+................
+
+................
+* New size: 1600
+................
+
+................
+* New size: 1610
+................
+
+................
+* New size: 1620
+................
+
+................
+* New size: 1630
+................
+
+................
+* New size: 1640
+................
+
+................
+* New size: 1650
+................
+
+................
+* New size: 1660
+................
+
+................
+* New size: 1670
+................
+
+................
+* New size: 1680
+................
+
+................
+* New size: 1690
+................
+
+................
+* New size: 1700
+................
+
+................
+* New size: 1710
+................
+
+................
+* New size: 1720
+................
+
+................
+* New size: 1730
+................
+
+................
+* New size: 1740
+................
+
+................
+* New size: 1750
+................
+
+................
+* New size: 1760
+................
+
+................
+* New size: 1770
+................
+
+................
+* New size: 1780
+................
+
+................
+* New size: 1790
+................
+
+................
+* New size: 1800
+................
+
+................
+* New size: 1810
+................
+
+................
+* New size: 1820
+................
+
+................
+* New size: 1830
+................
+
+................
+* New size: 1840
+................
+
+................
+* New size: 1850
+................
+
+................
+* New size: 1860
+................
+
+................
+* New size: 1870
+................
+
+................
+* New size: 1880
+................
+
+................
+* New size: 1890
+................
+
+................
+* New size: 1900
+................
+
+................
+* New size: 1910
+................
+
+................
+* New size: 1920
+................
+
+................
+* New size: 1930
+................
+
+................
+* New size: 1940
+................
+
+................
+* New size: 1950
+................
+
+................
+* New size: 1960
+................
+
+................
+* New size: 1970
+................
+
+................
+* New size: 1980
+................
+
+................
+* New size: 1990
+................
+
+................
+* New size: 2000
+................
+
+................
+* New size: 2010
+................
+
+................
+* New size: 2020
+................
+
+................
+* New size: 2030
+................
+
+................
+* New size: 2040
+................
+
+................
+* New size: 2050
+................
+
+................
+* New size: 2060
+................
+
+................
+* New size: 2070
+................
+
+................
+* New size: 2080
+................
+
+................
+* New size: 2090
+................
+
+................
+* New size: 2100
+................
+
+................
+* New size: 2110
+................
+
+................
+* New size: 2120
+................
+
+................
+* New size: 2130
+................
+
+................
+* New size: 2140
+................
+
+................
+* New size: 2150
+................
+
+................
+* New size: 2160
+................
+
+................
+* New size: 2170
+................
+
+................
+* New size: 2180
+................
+
+................
+* New size: 2190
+................
+
+................
+* New size: 2200
+................
+
+................
+* New size: 2210
+................
+
+................
+* New size: 2220
+................
+
+................
+* New size: 2230
+................
+
+................
+* New size: 2240
+................
+
+................
+* New size: 2250
+................
+
+................
+* New size: 2260
+................
+
+................
+* New size: 2270
+................
+
+................
+* New size: 2280
+................
+
+................
+* New size: 2290
+................
+
+................
+* New size: 2300
+................
+
+................
+* New size: 2310
+................
+
+................
+* New size: 2320
+................
+
+................
+* New size: 2330
+................
+
+................
+* New size: 2340
+................
+
+................
+* New size: 2350
+................
+
+................
+* New size: 2360
+................
+
+................
+* New size: 2370
+................
+
+................
+* New size: 2380
+................
+
+................
+* New size: 2390
+................
+
+................
+* New size: 2400
+................
+
+................
+* New size: 2410
+................
+
+................
+* New size: 2420
+................
+
+................
+* New size: 2430
+................
+
+................
+* New size: 2440
+................
+
+................
+* New size: 2450
+................
+
+................
+* New size: 2460
+................
+
+................
+* New size: 2470
+................
+
+................
+* New size: 2480
+................
+
+................
+* New size: 2490
+................
+
+................
+* New size: 2500
+................
+
+................
+* New size: 2510
+................
+
+................
+* New size: 2520
+................
+
+................
+* New size: 2530
+................
+
+................
+* New size: 2540
+................
+
+................
+* New size: 2550
+................
+
+................
+* New size: 2560
+................
+
+................
+* New size: 2570
+................
+
+................
+* New size: 2580
+................
+
+................
+* New size: 2590
+................
+
+................
+* New size: 2600
+................
+
+................
+* New size: 2610
+................
+
+................
+* New size: 2620
+................
+
+................
+* New size: 2630
+................
+
+................
+* New size: 2640
+................
+
+................
+* New size: 2650
+................
+
+................
+* New size: 2660
+................
+
+................
+* New size: 2670
+................
+
+................
+* New size: 2680
+................
+
+................
+* New size: 2690
+................
+
+................
+* New size: 2700
+................
+
+................
+* New size: 2710
+................
+
+................
+* New size: 2720
+................
+
+................
+* New size: 2730
+................
+
+................
+* New size: 2740
+................
+
+................
+* New size: 2750
+................
+
+................
+* New size: 2760
+................
+
+................
+* New size: 2770
+................
+
+................
+* New size: 2780
+................
+
+................
+* New size: 2790
+................
+
+................
+* New size: 2800
+................
+
+................
+* New size: 2810
+................
+
+................
+* New size: 2820
+................
+
+................
+* New size: 2830
+................
+
+................
+* New size: 2840
+................
+
+................
+* New size: 2850
+................
+
+................
+* New size: 2860
+................
+
+................
+* New size: 2870
+................
+
+................
+* New size: 2880
+................
+
+................
+* New size: 2890
+................
+
+................
+* New size: 2900
+................
+
+................
+* New size: 2910
+................
+
+................
+* New size: 2920
+................
+
+................
+* New size: 2930
+................
+
+................
+* New size: 2940
+................
+
+................
+* New size: 2950
+................
+
+................
+* New size: 2960
+................
+
+................
+* New size: 2970
+................
+
+................
+* New size: 2980
+................
+
+................
+* New size: 2990
+................
+
+................
+* New size: 3000
+................
+
+................
+* New size: 3010
+................
+
+................
+* New size: 3020
+................
+
+................
+* New size: 3030
+................
+
+................
+* New size: 3040
+................
+
+................
+* New size: 3050
+................
+
+................
+* New size: 3060
+................
+
+................
+* New size: 3070
+................
+
+................
+* New size: 3080
+................
+
+................
+* New size: 3090
+................
+
+................
+* New size: 3100
+................
+
+................
+* New size: 3110
+................
+
+................
+* New size: 3120
+................
+
+................
+* New size: 3130
+................
+
+................
+* New size: 3140
+................
+
+................
+* New size: 3150
+................
+
+................
+* New size: 3160
+................
+
+................
+* New size: 3170
+................
+
+................
+* New size: 3180
+................
+
+................
+* New size: 3190
+................
+
+................
+* New size: 3200
+................
+
+................
+* New size: 3210
+................
+
+................
+* New size: 3220
+................
+
+................
+* New size: 3230
+................
+
+................
+* New size: 3240
+................
+
+................
+* New size: 3250
+................
+
+................
+* New size: 3260
+................
+
+................
+* New size: 3270
+................
+
+................
+* New size: 3280
+................
+
+................
+* New size: 3290
+................
+
+................
+* New size: 3300
+................
+
+................
+* New size: 3310
+................
+STR_T		0	 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed laoreet tellus, eu condimentum tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis felis ex, a elementum ante sollicitudin at. Ut congue orci id scelerisque lacinia. Fusce at augue ante. Integer ultrices, mi et maximus faucibus, orci quam vulputate nisl, et fringilla est nisl nec ex. In eget convallis orci, non pharetra libero. Donec sit amet blandit libero. Donec tincidunt venenatis egestas. Donec eget sodales sapien, vel tristique ligula. Donec at tortor sit amet mi efficitur rutrum. Maecenas ut tellus id quam posuere tempus. Etiam fermentum ullamcorper sapien, vitae elementum ipsum ullamcorper vel. Praesent eu euismod est. Ut dapibus dictum augue, in lacinia massa faucibus non.
+
+Mauris aliquam ac leo a placerat. Nullam dapibus leo enim, sit amet pretium augue suscipit sit amet. Suspendisse placerat pulvinar tincidunt. Duis euismod condimentum blandit. Vestibulum magna enim, hendrerit id enim ac, aliquam interdum dolor. Nunc in mauris vel lorem elementum pharetra a vitae nisi. Mauris id feugiat ex. Aenean volutpat mauris sit amet dictum feugiat. Etiam neque leo, imperdiet ut nunc quis, interdum lobortis urna. In tincidunt efficitur nunc, vitae faucibus sem. Quisque pharetra leo sed interdum fermentum. Mauris elementum ante nec magna interdum, a blandit risus mattis.
+
+Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc lobortis pretium neque, nec consectetur est pharetra sed. Sed in molestie ante. Integer congue a nisi a condimentum. Donec consectetur dolor ac felis cursus rutrum. Proin bibendum semper posuere.
+
+Aliquam eu dui condimentum, suscipit lectus eu, fermentum dolor. Quisque pretium aliquet porta. In id accumsan arcu, in placerat lectus. Curabitur erat tortor, euismod non risus ac, tristique egestas enim. Donec sodales sagittis arcu, et vehicula nulla ultricies sed. Mauris eget commodo orci. Fusce eleifend mattis leo eget posuere. Phasellus hendrerit id lectus in vulputate. Quisque malesuada in massa id faucibus. Ut at pulvinar erat. In tempus auctor bibendum. Duis felis nunc, condimentum eget consequat nec, ultricies sit amet diam. Quisque feugiat consequat metus sed vestibulum. Sed id nibh pulvinar, pharetra dolor a, ultricies eros. Aliquam erat volutpat.
+
+Nunc ultricies placerat risus a aliquet. Pellentesque commodo libero tellus, eu euismod erat gravida non. Nulla congue arcu et pellentesque ullamcorper. Fusce sit amet arcu egestas, ultricies est ut, euismod eros. Quisque finibus fringilla quam sed fringilla. Sed congue purus sit amet nulla molestie viverra. Nullam sit amet congue mi. In ut urna malesuada, tempus leo in, mollis ligula. Nulla feugiat, lacus et fringilla tempor, est est pulvinar mi, in pharetra orci leo ut augue. Nullam consequat magna at orci tincidunt, nec lobortis urna luctus. Phasellus facilisis ut ligula in finibus. Mauris vehicula, elit in sodales pretium, felis justo maximus nunc, non egestas nisl nunc a odio. Integer nec lacus auctor tellus rhoncus rutrum. Maecenas iaculis, tortor et molestie laoreet, libero elit hendrerit mi, eget euismod nisi urna eu ipsum.
+SEP_T
+SEP_T
+SEOF_T		0	
+
+Printing string table...
+----------------------------------
+
+----------------------------------

@@ -1,0 +1,69 @@
+argv[0] = bin/ZiroCompiler
+argv[1] = 1
+argv[2] = input/hello_world.z
+[Debug mode: 1]
+Reading file input/hello_world.z ....Please wait
+
+Printing buffer parameters:
+
+The capacity of the buffer is:  100
+The current size of the buffer is:  83
+
+Printing buffer contents:
+
+
+Scanning source file...
+
+Token		Attribute
+----------------------------------
+Input symbol: p Row: 0 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: o Row: 10 Column: 0 Next: 10 
+Input symbol: g Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: a Row: 10 Column: 0 Next: 10 
+Input symbol: m Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+KW_T		program
+Input symbol: H Row: 0 Column: 0 Next: 10 
+Input symbol: l Row: 10 Column: 0 Next: 10 
+Input symbol: l Row: 10 Column: 0 Next: 10 
+Input symbol: o Row: 10 Column: 0 Next: 10 
+Input symbol: W Row: 10 Column: 0 Next: 10 
+Input symbol: o Row: 10 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: l Row: 10 Column: 0 Next: 10 
+Input symbol: d Row: 10 Column: 0 Next: 10 
+Input symbol:   Row: 10 Column: 7 Next: 11 
+ID_T		HelloWor
+SEP_T
+Input symbol: w Row: 0 Column: 0 Next: 10 
+Input symbol: r Row: 10 Column: 0 Next: 10 
+Input symbol: i Row: 10 Column: 0 Next: 10 
+Input symbol: t Row: 10 Column: 0 Next: 10 
+Input symbol: ( Row: 10 Column: 7 Next: 11 
+KW_T		write
+SEP_T
+Input symbol: " Row: 0 Column: 3 Next: 12 
+Input symbol: H Row: 12 Column: 0 Next: 12 
+Input symbol: e Row: 12 Column: 5 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol:   Row: 12 Column: 7 Next: 12 
+Input symbol: W Row: 12 Column: 0 Next: 12 
+Input symbol: o Row: 12 Column: 0 Next: 12 
+Input symbol: r Row: 12 Column: 0 Next: 12 
+Input symbol: l Row: 12 Column: 0 Next: 12 
+Input symbol: d Row: 12 Column: 0 Next: 12 
+Input symbol: " Row: 12 Column: 3 Next: 13 
+STR_T		0	 Hello World
+SEP_T
+SEP_T
+SEP_T
+SEOF_T		0	
+
+Printing string table...
+----------------------------------
+
+----------------------------------

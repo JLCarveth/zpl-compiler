@@ -2,8 +2,9 @@
 # Author: John L. Carveth <jlcarveth@gmail.com>
 SRC_DIR := src# Source Code Location
 OBJ_DIR := obj# Object Output Location
-BIN_DIR := out# Binary Output location
-DOC_DIR := docs#Document location
+BIN_DIR := bin# Binary Output location
+DOC_DIR := docs# Document location
+OUT_DIR := out# Testing output location
 CC := gcc
 # Output file named ZiroCompiler
 TARGET := $(BIN_DIR)/ZiroCompiler
@@ -37,7 +38,7 @@ $(BIN_DIR) $(OBJ_DIR):
 	mkdir -p $@
 
 clean:
-	@$(RM) -rv $(TARGET) $(OBJ_DIR) $(BIN_DIR) $(DOC_DIR)/out
+	@$(RM) -rv $(TARGET) $(OBJ_DIR) $(BIN_DIR) $(DOC_DIR)/out $(OUT_DIR)
 # I am using an NPM package (https://www.npmjs.com/package/markdown-to-document)
 # to convert markdown documents into webpages with a common format.
 docs: 
