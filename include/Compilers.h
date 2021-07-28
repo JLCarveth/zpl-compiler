@@ -42,16 +42,16 @@ Data types definitions
 */
 
 // TO_DO_1: Define your typedefs!
-typedef int             ziro_int;
-typedef short           ziro_short;
-typedef char            ziro_byte;
-typedef char            ziro_char;
-typedef long            ziro_long;
-typedef float           ziro_float;
-typedef double          ziro_double;
-typedef unsigned char   ziro_flag;
-typedef char            ziro_bool;
-typedef char            *ziro_string;
-typedef void            *ziro_array;
+typedef int             zero_int;
+typedef short           zero_short;
+typedef char            zero_byte;
+typedef char            zero_char;
+typedef long            zero_long;
+typedef float           zero_float;
+typedef double          zero_double;
+typedef unsigned char   zero_flag;
+typedef char            zero_bool;
+typedef char            *zero_string;
+typedef void            *zero_array;
 
 #endif

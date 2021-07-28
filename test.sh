@@ -1,5 +1,5 @@
 # Tests the Scanner against a set of input files
-COMPILER=bin/ZiroCompiler
+COMPILER=bin/ZeroCompiler
 INPUT_DIR=input/
 OUTPUT_DIR=out/
 NUM_TESTS=$(ls $INPUT_DIR | wc -l)

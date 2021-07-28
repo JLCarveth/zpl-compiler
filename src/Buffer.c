@@ -39,15 +39,15 @@
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
 
-BufferPointer bufferCreate(ziro_int size, ziro_int increment, ziro_int mode)
+BufferPointer bufferCreate(zero_int size, zero_int increment, zero_int mode)
 {
     BufferPointer b;
-    if (size < 0 || size > ZIRO_MAX_SIZE)
+    if (size < 0 || size > ZERO_MAX_SIZE)
         return NULL;
     if (!size)
     {
-        size = ZIRO_DEFAULT_SIZE;
-        increment = ZIRO_DEFAULT_INCREMENT;
+        size = ZERO_DEFAULT_SIZE;
+        increment = ZERO_DEFAULT_INCREMENT;
     }
     if (!increment)
         mode = MODE_FIXED;
@@ -63,7 +63,7 @@ BufferPointer bufferCreate(ziro_int size, ziro_int increment, ziro_int mode)
     b->mode = mode;
     b->size = size;
     b->increment = increment;
-    b->flags = ZIRO_DEFAULT_FLAG;
+    b->flags = ZERO_DEFAULT_FLAG;
     return b;
 }
 
@@ -77,16 +77,16 @@ BufferPointer bufferCreate(ziro_int size, ziro_int increment, ziro_int mode)
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
 
-BufferPointer bufferAddChar(BufferPointer const pBuffer, ziro_char ch)
+BufferPointer bufferAddChar(BufferPointer const pBuffer, zero_char ch)
 {
     char *tempbuf;
     short newSize;
     if (!pBuffer)
         return NULL;
-    pBuffer->flags = pBuffer->flags & ZIRO_RST_FLAG_RLB;
-    if (pBuffer->offset.addC * sizeof(char) == ZIRO_MAX_SIZE)
+    pBuffer->flags = pBuffer->flags & ZERO_RST_FLAG_RLB;
+    if (pBuffer->offset.addC * sizeof(char) == ZERO_MAX_SIZE)
         return NULL;
-    if (bufferCheckFull(pBuffer) == ZIRO_TRUE)
+    if (bufferCheckFull(pBuffer) == ZERO_TRUE)
     {
         switch (pBuffer->mode)
         {
@@ -116,7 +116,7 @@ BufferPointer bufferAddChar(BufferPointer const pBuffer, ziro_char ch)
             return NULL;
         if (tempbuf != pBuffer->string)
         {
-            pBuffer->flags = pBuffer->flags | ZIRO_SET_FLAG_RLB;
+            pBuffer->flags = pBuffer->flags | ZERO_SET_FLAG_RLB;
             pBuffer->string = tempbuf;
         }
         pBuffer->size = newSize;
@@ -133,14 +133,14 @@ BufferPointer bufferAddChar(BufferPointer const pBuffer, ziro_char ch)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferClean(BufferPointer const pBuffer)
+zero_bool bufferClean(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     pBuffer->offset.addC = pBuffer->offset.mark = pBuffer->offset.getC = 0;
-    pBuffer->flags = pBuffer->flags & ZIRO_RST_FLAG_EOB;
-    pBuffer->flags = pBuffer->flags & ZIRO_RST_FLAG_RLB;
-    return ZIRO_TRUE;
+    pBuffer->flags = pBuffer->flags & ZERO_RST_FLAG_EOB;
+    pBuffer->flags = pBuffer->flags & ZERO_RST_FLAG_RLB;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -151,13 +151,13 @@ ziro_bool bufferClean(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferDestroy(BufferPointer const pBuffer)
+zero_bool bufferDestroy(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     free(pBuffer->string);
     free(pBuffer);
-    return ZIRO_TRUE;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -168,13 +168,13 @@ ziro_bool bufferDestroy(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferCheckFull(BufferPointer const pBuffer)
+zero_bool bufferCheckFull(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     if (pBuffer->size == pBuffer->offset.addC * (int)sizeof(char))
-        return ZIRO_TRUE;
-    return ZIRO_FALSE;
+        return ZERO_TRUE;
+    return ZERO_FALSE;
 }
 
 /************************************************************
@@ -185,7 +185,7 @@ ziro_bool bufferCheckFull(BufferPointer const pBuffer)
 * Return value: addcPosition value
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferGetOffsetAddC(BufferPointer const pBuffer)
+zero_int bufferGetOffsetAddC(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
@@ -200,7 +200,7 @@ ziro_int bufferGetOffsetAddC(BufferPointer const pBuffer)
 * Return value: Size of buffer.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferGetSize(BufferPointer const pBuffer)
+zero_int bufferGetSize(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
@@ -215,7 +215,7 @@ ziro_int bufferGetSize(BufferPointer const pBuffer)
 * Return value: operational mode.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferGetMode(BufferPointer const pBuffer)
+zero_int bufferGetMode(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return (char)BUFFER_ERROR;
@@ -231,7 +231,7 @@ ziro_int bufferGetMode(BufferPointer const pBuffer)
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
 
-ziro_int bufferGetOffsetMark(BufferPointer const pBuffer)
+zero_int bufferGetOffsetMark(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
@@ -247,12 +247,12 @@ ziro_int bufferGetOffsetMark(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferSetOffsetMark(BufferPointer const pBuffer, ziro_int mark)
+zero_bool bufferSetOffsetMark(BufferPointer const pBuffer, zero_int mark)
 {
     if (!pBuffer || mark < 0 || mark > pBuffer->offset.addC)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     pBuffer->offset.mark = mark;
-    return ZIRO_TRUE;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -263,14 +263,14 @@ ziro_bool bufferSetOffsetMark(BufferPointer const pBuffer, ziro_int mark)
 * Return value: Number of chars printed.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferPrint(BufferPointer const pBuffer)
+zero_int bufferPrint(BufferPointer const pBuffer)
 {
-    ziro_int cont = 0;
+    zero_int cont = 0;
     char c;
     if (!pBuffer || !(pBuffer->string))
         return BUFFER_ERROR;
     c = bufferGetChar(pBuffer);
-    while (!(pBuffer->flags & ZIRO_CHK_FLAG_EOB))
+    while (!(pBuffer->flags & ZERO_CHK_FLAG_EOB))
     {
         cont++;
         printf("%c", c);
@@ -289,9 +289,9 @@ ziro_int bufferPrint(BufferPointer const pBuffer)
 * Return value: Number of chars read and put in buffer.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferLoad(BufferPointer const pBuffer, FILE *const fi)
+zero_int bufferLoad(BufferPointer const pBuffer, FILE *const fi)
 {
-    ziro_int size = 0;
+    zero_int size = 0;
     char c;
     if (!fi || !pBuffer)
         return BUFFER_ERROR;
@@ -319,13 +319,13 @@ ziro_int bufferLoad(BufferPointer const pBuffer, FILE *const fi)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferCheckEmpty(BufferPointer const pBuffer)
+zero_bool bufferCheckEmpty(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     if (pBuffer->offset.addC == 0)
-        return ZIRO_TRUE;
-    return ZIRO_FALSE;
+        return ZERO_TRUE;
+    return ZERO_FALSE;
 }
 
 /************************************************************
@@ -336,16 +336,16 @@ ziro_bool bufferCheckEmpty(BufferPointer const pBuffer)
 * Return value: Char in the getC position.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_char bufferGetChar(BufferPointer const pBuffer)
+zero_char bufferGetChar(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
     if (pBuffer->offset.getC == pBuffer->offset.addC)
     {
-        pBuffer->flags = pBuffer->flags | ZIRO_SET_FLAG_EOB;
+        pBuffer->flags = pBuffer->flags | ZERO_SET_FLAG_EOB;
         return '\0';
     }
-    pBuffer->flags = pBuffer->flags & ZIRO_RST_FLAG_EOB;
+    pBuffer->flags = pBuffer->flags & ZERO_RST_FLAG_EOB;
     return pBuffer->string[pBuffer->offset.getC++];
 }
 
@@ -357,13 +357,13 @@ ziro_char bufferGetChar(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferRewind(BufferPointer const pBuffer)
+zero_bool bufferRewind(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     pBuffer->offset.getC = 0;
     pBuffer->offset.mark = 0;
-    return ZIRO_TRUE;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -374,12 +374,12 @@ ziro_bool bufferRewind(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferRetract(BufferPointer const pBuffer)
+zero_bool bufferRetract(BufferPointer const pBuffer)
 {
     if (!pBuffer || pBuffer->offset.getC == 0)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     pBuffer->offset.getC--;
-    return ZIRO_TRUE;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -390,12 +390,12 @@ ziro_bool bufferRetract(BufferPointer const pBuffer)
 * Return value: Boolean value about operation success
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_bool bufferRestore(BufferPointer const pBuffer)
+zero_bool bufferRestore(BufferPointer const pBuffer)
 {
     if (!pBuffer)
-        return ZIRO_FALSE;
+        return ZERO_FALSE;
     pBuffer->offset.getC = pBuffer->offset.mark;
-    return ZIRO_TRUE;
+    return ZERO_TRUE;
 }
 
 /************************************************************
@@ -406,7 +406,7 @@ ziro_bool bufferRestore(BufferPointer const pBuffer)
 * Return value: The getC offset.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferGetOffsetGetC(BufferPointer const pBuffer)
+zero_int bufferGetOffsetGetC(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
@@ -421,7 +421,7 @@ ziro_int bufferGetOffsetGetC(BufferPointer const pBuffer)
 * Return value: The Buffer increment.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_int bufferGetIncrement(BufferPointer const pBuffer)
+zero_int bufferGetIncrement(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return BUFFER_ERROR;
@@ -437,7 +437,7 @@ ziro_int bufferGetIncrement(BufferPointer const pBuffer)
 * Return value: Position of string char.
 * TO_DO: Adjust for your LANGUAGE.
 **************************************************************/
-ziro_char *bufferGetSubString(BufferPointer const pBuffer, ziro_int pos)
+zero_char *bufferGetSubString(BufferPointer const pBuffer, zero_int pos)
 {
     if (!pBuffer || pos < 0 || pos > pBuffer->offset.addC)
         return NULL;
@@ -455,7 +455,7 @@ ziro_char *bufferGetSubString(BufferPointer const pBuffer, ziro_int pos)
 #define FLAGS_
 #undef FLAGS_
 #ifndef FLAGS_
-ziro_flag bufferGetFlags(BufferPointer const pBuffer)
+zero_flag bufferGetFlags(BufferPointer const pBuffer)
 {
     if (!pBuffer)
         return (unsigned char)BUFFER_ERROR;

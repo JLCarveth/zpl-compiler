@@ -55,13 +55,13 @@ TO_DO 12: Global vars definitions
 /* Global objects - variables */
 /* This buffer is used as a repository for string literals. */
 extern BufferPointer stringLiteralTable; /* String literal table */
-ziro_int line;                           /* Current line number of the source code */
-extern ziro_int errorNumber;             /* Defined in platy_st.c - run-time error number */
+zero_int line;                           /* Current line number of the source code */
+extern zero_int errorNumber;             /* Defined in platy_st.c - run-time error number */
 
-extern ziro_int stateType[];
-extern ziro_char *keywordTable[];
+extern zero_int stateType[];
+extern zero_char *keywordTable[];
 extern PTR_ACCFUN finalStateTable[];
-extern ziro_int transitionTable[][TABLE_COLUMNS];
+extern zero_int transitionTable[][TABLE_COLUMNS];
 
 /* Local(file) global objects - variables */
 static BufferPointer lexemeBuffer; /* pointer to temporary lexeme buffer */
@@ -71,9 +71,9 @@ static BufferPointer sourceBuffer; /* pointer to input source buffer */
  * Intitializes scanner
  *		This function initializes the scanner using defensive programming.
  ************************************************************/
-ziro_int startScanner(BufferPointer psc_buf)
+zero_int startScanner(BufferPointer psc_buf)
 {
-    if (bufferCheckEmpty(psc_buf) == ZIRO_TRUE)
+    if (bufferCheckEmpty(psc_buf) == ZERO_TRUE)
         return EXIT_FAILURE; /*1*/
     /* in case the buffer has been read previously  */
     bufferRewind(psc_buf);
@@ -94,14 +94,14 @@ ziro_int startScanner(BufferPointer psc_buf)
 Token tokenizer(void)
 {
     Token currentToken = {0}; /* token to return after pattern recognition. Set all structure members to 0 */
-    ziro_flag c;              /* input symbol */
-    ziro_int state = 0;       /* initial state of the FSM */
-    ziro_int lexStart;        /* start offset of a lexeme in the input char buffer (array) */
-    ziro_int lexEnd;          /* end offset of a lexeme in the input char buffer (array)*/
+    zero_flag c;              /* input symbol */
+    zero_int state = 0;       /* initial state of the FSM */
+    zero_int lexStart;        /* start offset of a lexeme in the input char buffer (array) */
+    zero_int lexEnd;          /* end offset of a lexeme in the input char buffer (array)*/
 
-    ziro_int lexLength; /* token length */
-    ziro_int i;         /* counter */
-    ziro_char newc;     /* new char */
+    zero_int lexLength; /* token length */
+    zero_int i;         /* counter */
+    zero_char newc;     /* new char */
 
     while (1)
     { /* endless loop broken by token returns it will generate a warning */
@@ -368,10 +368,10 @@ Token tokenizer(void)
     Once the program is tested thoroughly #define DEBUG is commented out
     or #undef DEBUF is used - see the top of the file.
  ************************************************************/
-ziro_int nextState(ziro_int state, ziro_char c)
+zero_int nextState(zero_int state, zero_char c)
 {
-    ziro_int col;
-    ziro_int next;
+    zero_int col;
+    zero_int next;
 
     if (state == 0 && (c == 'e' || c == 'E'))
         return 10;
@@ -402,9 +402,9 @@ ziro_int nextState(ziro_int state, ziro_char c)
 ************************************************************/
 /* TO_DO 18: Use your column configuration */
 
-ziro_int nextClass(ziro_flag c)
+zero_int nextClass(zero_flag c)
 {
-    ziro_int val = -1;
+    zero_int val = -1;
     /* Adjust the logic to return next column in TT */
     /*	[A-z](0), [0-9](1), _(2), .(3), #(4), %(5), $(6), "(7), SEOF(8), other(9) */
     switch (c)
@@ -449,7 +449,7 @@ ziro_int nextClass(ziro_flag c)
  *    Remember to end each token with the \0.
  *  - Suggestion: Use "strncpy" function.
  ************************************************************/
-Token funcID(ziro_char lexeme[])
+Token funcID(zero_char lexeme[])
 {
     Token currentToken = {0};
     currentToken = funcKEY(lexeme);
@@ -473,10 +473,10 @@ Token funcID(ziro_char lexeme[])
  *   additional three dots (...) should be put in the output.
  ************************************************************/
 
-Token funcIL(ziro_char lexeme[])
+Token funcIL(zero_char lexeme[])
 {
     Token currentToken = {0};
-    ziro_long tlong;
+    zero_long tlong;
     if (lexeme[0] != '\0' && strlen(lexeme) > NUM_LEN)
     {
         currentToken = (*finalStateTable[ES])(lexeme);
@@ -487,7 +487,7 @@ Token funcIL(ziro_char lexeme[])
         if (tlong >= 0 && tlong <= SHRT_MAX)
         {
             currentToken.code = INL_T;
-            currentToken.attribute.intValue = (ziro_int)tlong;
+            currentToken.attribute.intValue = (zero_int)tlong;
         }
         else
         {
@@ -506,14 +506,14 @@ Token funcIL(ziro_char lexeme[])
  *   additional three dots (...) should be put in the output.
  ************************************************************/
 
-Token funcFPL(ziro_char lexeme[])
+Token funcFPL(zero_char lexeme[])
 {
     Token currentToken = {0};
-    ziro_double tdouble = atof(lexeme);
+    zero_double tdouble = atof(lexeme);
     if (tdouble == 0.0 || ((tdouble >= FLT_MIN) && (tdouble <= FLT_MAX)))
     {
         currentToken.code = FPL_T;
-        currentToken.attribute.floatValue = (ziro_float)tdouble;
+        currentToken.attribute.floatValue = (zero_float)tdouble;
     }
     else
     {
@@ -531,10 +531,10 @@ Token funcFPL(ziro_char lexeme[])
  *   separate the lexemes. Remember also to incremente the line.
  ************************************************************/
 
-Token funcSL(ziro_char lexeme[])
+Token funcSL(zero_char lexeme[])
 {
     Token currentToken = {0};
-    ziro_int i = 0, len = (ziro_int)strlen(lexeme);
+    zero_int i = 0, len = (zero_int)strlen(lexeme);
     currentToken.attribute.contentString = bufferGetOffsetAddC(stringLiteralTable);
     for (i = 1; i < len - 1; i++)
     {
@@ -564,10 +564,10 @@ Token funcSL(ziro_char lexeme[])
  * - Tip: Remember to use the keywordTable to check the keywords.
  ************************************************************/
 
-Token funcKEY(ziro_char lexeme[])
+Token funcKEY(zero_char lexeme[])
 {
     Token currentToken = {0};
-    ziro_int kwindex = -1, j = 0;
+    zero_int kwindex = -1, j = 0;
     for (j = 0; j < KWT_SIZE; j++)
         if (!strcmp(lexeme, &keywordTable[j][0]))
             kwindex = j;
@@ -591,10 +591,10 @@ Token funcKEY(ziro_char lexeme[])
  *   limit defined. The error lexeme contains line terminators,
  *   so remember to increment line.
  ************************************************************/
-Token funcErr(ziro_char lexeme[])
+Token funcErr(zero_char lexeme[])
 {
     Token currentToken = {0};
-    ziro_int i = 0, len = (ziro_int)strlen(lexeme);
+    zero_int i = 0, len = (zero_int)strlen(lexeme);
     if (len > ERR_LEN)
     {
         strncpy(currentToken.attribute.errLexeme, lexeme, ERR_LEN - 3);
@@ -620,10 +620,10 @@ TO_DO_20: (If necessary): HERE YOU WRITE YOUR ADDITIONAL FUNCTIONS (IF ANY).
  * - The character value is stored within the `charValue` field
  * of the TokenAttribute struct.
  ************************************************************/
-Token funcCL(ziro_char *lexeme)
+Token funcCL(zero_char *lexeme)
 {
     Token currentToken = {0};
-    ziro_int len = (ziro_int)strlen(lexeme);
+    zero_int len = (zero_int)strlen(lexeme);
     currentToken.code = CL_T;
     if (len == 3)
     {

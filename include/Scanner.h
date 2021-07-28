@@ -64,34 +64,34 @@ typedef enum SourceEndOfFile { SEOF_0, SEOF_EOF } EofOperator;
 
 /* TO_DO 3A: Data structures for declaring the token and its attributes */
 typedef union TokenAttribute {
-    ziro_int codeType;                  /* integer attributes accessor */
+    zero_int codeType;                  /* integer attributes accessor */
     AriOperator arithmeticOperator;     /* arithmetic operator attribute code */
     RelOperator relationalOperator;     /* relational operator attribute code */
     LogOperator logicalOperator;        /* logical operator attribute code */
     EofOperator seofType;               /* source-end-of-file attribute code */
     Separator separatorType;            /* Type of separator */
-    ziro_int intValue;                  /* integer literal attribute (value) */
-    ziro_char charValue;                 /* Character literal attribute value */
-    ziro_int keywordIndex;              /* keyword index in the keyword table */
-    ziro_int contentString;             /* string literal offset from the beginning of the string literal buffer (stringLiteralTable->content) */
-    ziro_float floatValue;              /* floating-point literal attribute (value) */
-    ziro_char vidLexeme[VID_LEN + 1];   /* variable identifier token attribute */
-    ziro_char errLexeme[ERR_LEN + 1];   /* error token attribite */
+    zero_int intValue;                  /* integer literal attribute (value) */
+    zero_char charValue;                 /* Character literal attribute value */
+    zero_int keywordIndex;              /* keyword index in the keyword table */
+    zero_int contentString;             /* string literal offset from the beginning of the string literal buffer (stringLiteralTable->content) */
+    zero_float floatValue;              /* floating-point literal attribute (value) */
+    zero_char vidLexeme[VID_LEN + 1];   /* variable identifier token attribute */
+    zero_char errLexeme[ERR_LEN + 1];   /* error token attribite */
 } TokenAttribute;
 
 /* TO_DO 3B: Should be used if no symbol table is implemented */
 typedef struct VidAttributes {
-    ziro_flag flags;                     /* Flags information */
+    zero_flag flags;                     /* Flags information */
     union {
-        ziro_int intValue;              /* Integer value */
-        ziro_float floatValue;            /* Float value */
-        ziro_string stringContent;        /* String value */
+        zero_int intValue;              /* Integer value */
+        zero_float floatValue;            /* Float value */
+        zero_string stringContent;        /* String value */
     } values;
 } VidAttributes;
 
 /* CHECK: Token declaration */
 typedef struct Token {
-    ziro_int code;                  /* token code */
+    zero_int code;                  /* token code */
     TokenAttribute attribute;       /* token attribute */
     VidAttributes   vidAttribute;    /* not used in this scanner implementation - for further use */
 } Token;
@@ -132,7 +132,7 @@ typedef struct Token {
 #define SVIDPREFIX '$'
 
 /* TO_DO 7: Transition table - type of states defined in separate table */
-static ziro_int transitionTable[][TABLE_COLUMNS] = {
+static zero_int transitionTable[][TABLE_COLUMNS] = {
     /*          [A-z],  [0-9],  .,      ",      ',      E|e,    SOEF,   other,  -                       */
     /*          L(0)    D(1)    P(2)    Q(3)    C(4)    X(5)    E(6)    O(7)    M(8)                    */
     /* S00 */	{10,    1,      ES,     12,     14,     ES,     ER,     ES,     2},     /* NOAS */
@@ -161,7 +161,7 @@ static ziro_int transitionTable[][TABLE_COLUMNS] = {
 #define ASWR    2       /* accepting state with retract */
 
 /* TO_DO 8: Define list of acceptable states */
-static ziro_int stateType[] = {
+static zero_int stateType[] = {
     NOAS, /* 00 */
     NOAS, /* 01 */
     NOAS, /* 02 */
@@ -190,9 +190,9 @@ TO_DO 9: Adjust your functions'definitions
 */
 
 /* Static (local) function  prototypes */
-ziro_int startScanner(BufferPointer psc_buf);
-ziro_int nextClass(ziro_flag c);         /* character class function */
-ziro_int nextState(ziro_int state, ziro_char c); /* state machine function */
+zero_int startScanner(BufferPointer psc_buf);
+zero_int nextClass(zero_flag c);         /* character class function */
+zero_int nextState(zero_int state, zero_char c); /* state machine function */
 
 /*
 -------------------------------------------------
@@ -201,16 +201,16 @@ Automata definitions
 */
 
 /* TO_DO_10A: Pointer to function (of one char * argument) returning Token */
-typedef Token(*PTR_ACCFUN)(ziro_char* lexeme);
+typedef Token(*PTR_ACCFUN)(zero_char* lexeme);
 
 /* Declare accepting states functions */
-Token funcID    (ziro_char* lexeme);
-Token funcIL    (ziro_char* lexeme);
-Token funcFPL   (ziro_char* lexeme);
-Token funcSL    (ziro_char* lexeme);
-Token funcCL    (ziro_char* lexeme);
-Token funcKEY   (ziro_char* lexeme);
-Token funcErr   (ziro_char* lexeme);
+Token funcID    (zero_char* lexeme);
+Token funcIL    (zero_char* lexeme);
+Token funcFPL   (zero_char* lexeme);
+Token funcSL    (zero_char* lexeme);
+Token funcCL    (zero_char* lexeme);
+Token funcKEY   (zero_char* lexeme);
+Token funcErr   (zero_char* lexeme);
 
 /* 
  * Accepting function (action) callback table (array) definition 
@@ -250,7 +250,7 @@ Language keywords
 #define KWT_SIZE 25
 
 /* TO_DO 11B: Define the list of keywords */
-static ziro_char* keywordTable[KWT_SIZE] = {
+static zero_char* keywordTable[KWT_SIZE] = {
     "byte",
     "short",
     "int",

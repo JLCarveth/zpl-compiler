@@ -6,8 +6,8 @@ BIN_DIR := bin# Binary Output location
 DOC_DIR := docs# Document location
 OUT_DIR := out# Testing output location
 CC := gcc
-# Output file named ZiroCompiler
-TARGET := $(BIN_DIR)/ZiroCompiler
+# Output file named ZeroCompiler
+TARGET := $(BIN_DIR)/ZeroCompiler
 # Include directory
 IDIR := include
 # All source files to compile

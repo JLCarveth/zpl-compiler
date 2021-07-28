@@ -56,7 +56,7 @@ int errorNumber;			/* run-time error number = 0 by default (ANSI) */
 
 /* External objects */
 extern int line; /* source code line numbers - defined in scanner.c */
-extern ziro_int startScanner(Buffer* sc_buf);
+extern zero_int startScanner(Buffer* sc_buf);
 extern Token tokenizer(void);
 
 /*
@@ -103,7 +103,7 @@ int mainScanner(int argc, char** argv) {
     printf("%s%d%s", "[Debug mode: ", DEBUG, "]\n");
 
     /* create a source code input buffer - multiplicative mode */
-    sourceBuffer = bufferCreate(ZIRO_DEFAULT_SIZE, ZIRO_DEFAULT_INCREMENT, MODE_MULTI);
+    sourceBuffer = bufferCreate(ZERO_DEFAULT_SIZE, ZERO_DEFAULT_INCREMENT, MODE_MULTI);
     if (sourceBuffer == NULL) {
         printScannerError("%s%s", argv[1], ": Could not create source buffer");
         exit(EXIT_FAILURE);
@@ -136,7 +136,7 @@ int mainScanner(int argc, char** argv) {
     }
 
     /* create string Literal Table */
-    stringLiteralTable = bufferCreate(ZIRO_DEFAULT_SIZE, ZIRO_DEFAULT_INCREMENT, MODE_ADDIT);
+    stringLiteralTable = bufferCreate(ZERO_DEFAULT_SIZE, ZERO_DEFAULT_INCREMENT, MODE_ADDIT);
     if (stringLiteralTable == NULL) {
         printScannerError("%s%s", argv[0], ": Could not create string literals buffer");
         exit(EXIT_FAILURE);

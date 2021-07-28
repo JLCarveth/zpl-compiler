@@ -33,8 +33,8 @@
 * Algorithm: -
 **************************************************************/
 
-ziro_int main(int argc, char** argv) {
-	ziro_int i;
+zero_int main(int argc, char** argv) {
+	zero_int i;
 	if (DEBUG) {
 		for (i = 0; i < argc; ++i)
 			printf("argv[%d] = %s\n", i, argv[i]);
@@ -45,7 +45,7 @@ ziro_int main(int argc, char** argv) {
 			PGM_SCANNER, "] - Scanner, [",
 			PGM_PARSER, "] - Parser\n");
 	}
-	ziro_char option = argv[1][0];
+	zero_char option = argv[1][0];
 	switch (option) {
 	case PGM_BUFFER:
 		break;

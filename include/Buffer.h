@@ -34,56 +34,56 @@ enum BUFFERMODES {
 
 #define BUFFER_ERROR (-1)				/* General error message */
 
-/* CONSTANTS DEFINITION: PREFIXED BY LANGUAGE NAME (ZIRO) */
-#define ZIRO_DEFAULT_SIZE 100			/* default initial buffer capacity */
-#define ZIRO_DEFAULT_INCREMENT 10		/* default increment factor */
+/* CONSTANTS DEFINITION: PREFIXED BY LANGUAGE NAME (ZERO) */
+#define ZERO_DEFAULT_SIZE 100			/* default initial buffer capacity */
+#define ZERO_DEFAULT_INCREMENT 10		/* default increment factor */
 
 /* You should add your own constant definitions here */
-#define ZIRO_MAX_SIZE SHRT_MAX-1 /*maximum capacity*/ 
-#define ZIRO_STR_NULL_TERM '\0' /* termination char indicating end of a string */
+#define ZERO_MAX_SIZE SHRT_MAX-1 /*maximum capacity*/ 
+#define ZERO_STR_NULL_TERM '\0' /* termination char indicating end of a string */
 
-/* Add your bit-masks constant definitions here - Defined for ZIRO */
-#define ZIRO_DEFAULT_FLAG 0x3F		/* 0011.1111 */
-#define ZIRO_SET_FLAG_RLB 0x80		/* 1000.0000 */
-#define ZIRO_RST_FLAG_RLB 0x7F		/* 0111.1111 */
-#define ZIRO_CHK_FLAG_RLB 0x80		/* 1000.0000 */
-#define ZIRO_SET_FLAG_EOB 0x40		/* 0100.0000 */
-#define ZIRO_RST_FLAG_EOB 0xBF		/* 1011.1111 */
-#define ZIRO_CHK_FLAG_EOB 0x01		/* 0100.0000 */
+/* Add your bit-masks constant definitions here - Defined for ZERO */
+#define ZERO_DEFAULT_FLAG 0x3F		/* 0011.1111 */
+#define ZERO_SET_FLAG_RLB 0x80		/* 1000.0000 */
+#define ZERO_RST_FLAG_RLB 0x7F		/* 0111.1111 */
+#define ZERO_CHK_FLAG_RLB 0x80		/* 1000.0000 */
+#define ZERO_SET_FLAG_EOB 0x40		/* 0100.0000 */
+#define ZERO_RST_FLAG_EOB 0xBF		/* 1011.1111 */
+#define ZERO_CHK_FLAG_EOB 0x01		/* 0100.0000 */
 
 /* Logical constants - All booleans are by default false (0). Anything non-zero
 is percieved as true
 */
-#define ZIRO_TRUE 1
-#define ZIRO_FALSE 0
+#define ZERO_TRUE 1
+#define ZERO_FALSE 0
 
-/* STRUCTURES DEFINITION: SUFIXED BY LANGUAGE NAME (ZIRO) */
-typedef int				ziro_int;
-typedef short			ziro_short;
-typedef char 			ziro_byte;
-typedef char			ziro_char;
-typedef long			ziro_long;
-typedef float			ziro_float;
-typedef double 			ziro_double;
-typedef unsigned char	ziro_flag;
-typedef char			ziro_bool;
-typedef char* 			ziro_string;
-typedef void*			ziro_array;
+/* STRUCTURES DEFINITION: SUFIXED BY LANGUAGE NAME (ZERO) */
+typedef int				zero_int;
+typedef short			zero_short;
+typedef char 			zero_byte;
+typedef char			zero_char;
+typedef long			zero_long;
+typedef float			zero_float;
+typedef double 			zero_double;
+typedef unsigned char	zero_flag;
+typedef char			zero_bool;
+typedef char* 			zero_string;
+typedef void*			zero_array;
 
 /* user data type declarations */
-typedef struct OffsetZiro {
-    ziro_int addC;      /* the offset (in chars) to the add-character location */
-    ziro_int getC;      /* the offset (in chars) to the get-character location */
-    ziro_int mark;      /* the offset (in chars) to the mark location */
+typedef struct OffsetZero {
+    zero_int addC;      /* the offset (in chars) to the add-character location */
+    zero_int getC;      /* the offset (in chars) to the get-character location */
+    zero_int mark;      /* the offset (in chars) to the mark location */
 } Offset;
 
 /* user data type declarations */
-typedef struct ZiroBuffer {
-    ziro_char* string;         /* pointer to the beginning of character array (character buffer) */
-    ziro_int size;            /* current dynamic memory size (in bytes) allocated to character buffer */
-    ziro_int increment;       /* character array increment factor */
-    ziro_int mode;            /* operational mode indicator*/
-    ziro_flag flags;  /* contains character array reallocation flag and end-of-buffer flag */
+typedef struct ZeroBuffer {
+    zero_char* string;         /* pointer to the beginning of character array (character buffer) */
+    zero_int size;            /* current dynamic memory size (in bytes) allocated to character buffer */
+    zero_int increment;       /* character array increment factor */
+    zero_int mode;            /* operational mode indicator*/
+    zero_flag flags;  /* contains character array reallocation flag and end-of-buffer flag */
     Offset offset;
 } Buffer, * BufferPointer;
 
@@ -91,30 +91,30 @@ typedef struct ZiroBuffer {
 
 /* Function declarations */
 
-BufferPointer bufferCreate(ziro_int, ziro_int, ziro_int);
-BufferPointer bufferAddChar(BufferPointer const, ziro_char);
-ziro_bool bufferRetract(BufferPointer const);
-ziro_bool bufferRestore(BufferPointer const);
-ziro_bool bufferRewind(BufferPointer const);
-ziro_bool bufferClean(BufferPointer const);
-ziro_bool bufferDestroy(BufferPointer const);
+BufferPointer bufferCreate(zero_int, zero_int, zero_int);
+BufferPointer bufferAddChar(BufferPointer const, zero_char);
+zero_bool bufferRetract(BufferPointer const);
+zero_bool bufferRestore(BufferPointer const);
+zero_bool bufferRewind(BufferPointer const);
+zero_bool bufferClean(BufferPointer const);
+zero_bool bufferDestroy(BufferPointer const);
 
-ziro_bool bufferSetOffsetMark(BufferPointer const, ziro_int);
-ziro_int bufferPrint(BufferPointer const);
-ziro_int bufferLoad(BufferPointer const, FILE* const);
+zero_bool bufferSetOffsetMark(BufferPointer const, zero_int);
+zero_int bufferPrint(BufferPointer const);
+zero_int bufferLoad(BufferPointer const, FILE* const);
 
-ziro_bool bufferCheckFull(BufferPointer const);
-ziro_bool bufferCheckEmpty(BufferPointer const);
+zero_bool bufferCheckFull(BufferPointer const);
+zero_bool bufferCheckEmpty(BufferPointer const);
 
-ziro_int bufferGetSize(BufferPointer const);
-ziro_int bufferGetOffsetAddC(BufferPointer const);
-ziro_int bufferGetOffsetMark(BufferPointer const);
-ziro_int bufferGetOffsetGetC(BufferPointer const);
-ziro_int bufferGetIncrement(BufferPointer const);
-ziro_int bufferGetMode(BufferPointer const);
-ziro_char bufferGetChar(BufferPointer const);
-ziro_char* bufferGetSubString(BufferPointer const, ziro_int);
-ziro_flag bufferGetFlags(BufferPointer const);
+zero_int bufferGetSize(BufferPointer const);
+zero_int bufferGetOffsetAddC(BufferPointer const);
+zero_int bufferGetOffsetMark(BufferPointer const);
+zero_int bufferGetOffsetGetC(BufferPointer const);
+zero_int bufferGetIncrement(BufferPointer const);
+zero_int bufferGetMode(BufferPointer const);
+zero_char bufferGetChar(BufferPointer const);
+zero_char* bufferGetSubString(BufferPointer const, zero_int);
+zero_flag bufferGetFlags(BufferPointer const);
 
 
 #endif
