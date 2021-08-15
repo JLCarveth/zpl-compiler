@@ -148,20 +148,6 @@ zero_null program()
 }
 
 /*************************************************************
- * dataSession
- * BNF: <dataSession> -> DATA { <opt_varlist_declarations> }
- * FIRST(<program>)= {KW_T (DATA)}.
- ************************************************************/
-zero_null dataSession()
-{
-    matchToken(KW_T, DATA);
-    matchToken(LBR_T, NO_ATTR);
-    optVarListDeclarations();
-    matchToken(RBR_T, NO_ATTR);
-    printf("%s%s\n", STR_LANGNAME, ": Code Session parsed");
-}
-
-/*************************************************************
  * Optional Var List Declarations
  * BNF: <opt_varlist_declarations> -> <varlist_declarations> | e
  * FIRST(<opt_varlist_declarations>) = { e, KW_T (INT), KW_T (FLOAT), KW_T (STRING)}.
@@ -171,20 +157,6 @@ zero_null optVarListDeclarations()
     // TO_DO: Basic implementation
     ; // Empty
     printf("%s%s\n", STR_LANGNAME, ": Optional Variable List Declarations parsed");
-}
-
-/*************************************************************
- * codeSession statement
- * BNF: <codeSession> -> CODE { <opt_statements> }
- * FIRST(<codeSession>)= {KW_T (CODE)}.
- ************************************************************/
-zero_null codeSession()
-{
-    matchToken(KW_T, CODE);
-    matchToken(LBR_T, NO_ATTR);
-    optionalStatements();
-    matchToken(RBR_T, NO_ATTR);
-    printf("%s%s\n", STR_LANGNAME, ": Code Session parsed");
 }
 
 /* TODO_205: Continue the development (all non-terminal functions) */
@@ -292,27 +264,160 @@ zero_null outputStatement()
 {
     matchToken(KW_T, WRITE);
     matchToken(SEP_T, LEFT_PARENS);
-    switch (lookahead.code) {
-        case STR_T:
-            matchToken(STR_T,NO_ATTR);
-            break;
-        case ID_T:
-            matchToken(ID_T, NO_ATTR);
-            break;
+    switch (lookahead.code)
+    {
+    case STR_T:
+        matchToken(STR_T, NO_ATTR);
+        break;
+    case ID_T:
+        matchToken(ID_T, NO_ATTR);
+        break;
     }
     matchToken(SEP_T, RIGHT_PARENS);
     printf("%s%s\n", STR_LANGNAME, ": Output statement parsed");
 }
 
-zero_null assignmentStatement() {
+zero_null inputStatement()
+{
+    matchToken(KW_T, READ);
+    matchToken(SEP_T, LEFT_PARENS);
+    switch (lookahead.code)
+    {
+    case STR_T:
+        matchToken(STR_T, NO_ATTR);
+        break;
+    case ID_T:
+        matchToken(ID_T, NO_ATTR);
+        break;
+    }
+    matchToken(SEP_T, RIGHT_PARENS);
+    printf("%s%s\n", STR_LANGNAME, ": Input statement parsed");
+}
+
+zero_null selectionStatement()
+{
+    if (lookahead.code == KW_T)
+    {
+        switch (lookahead.attribute.codeType)
+        {
+        case IF:
+            matchToken(KW_T, IF);
+            break;
+        case WHILE:
+            matchToken(KW_T, WHILE);
+            break;
+        }
+    }
+    printf("%s%s\n", STR_LANGNAME, ": Selection statement parsed");
+}
+
+zero_null ifStatement()
+{
+    matchToken(KW_T, IF);
+    matchToken(SEP_T, LEFT_PARENS);
+    conditionalExpression();
+    matchToken(SEP_T, RIGHT_PARENS);
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+    printf("%s%s\n", STR_LANGNAME, ": If statement parsed");
+}
+
+zero_null elseStatement()
+{
+    matchToken(KW_T, ELSE);
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+    printf("%s%s\n", STR_LANGNAME, ": Else statement parsed");
+}
+
+zero_null ifElseStatement()
+{
+    ifStatement();
+    elseStatement();
+    printf("%s%s\n", STR_LANGNAME, ": If else statement parsed");
+}
+
+zero_null switchStatement()
+{
+    matchToken(KW_T, SWITCH);
+    matchToken(SEP_T, LEFT_PARENS);
+    matchToken(ID_T, NO_ATTR);
+    matchToken(SEP_T, RIGHT_PARENS);
+    switchBlock();
+    printf("%s%s\n", STR_LANGNAME, ": Switch statement parsed");
+}
+
+zero_null switchBlock()
+{
+    matchToken(SEP_T, LEFT_CURLY);
+    caseBlocks();
+    matchToken(SEP_T, RIGHT_CURLY);
+    printf("%s%s\n", STR_LANGNAME, ": Switch block parsed");
+}
+
+zero_null caseBlocks()
+{
+
+}
+
+zero_null caseBlock()
+{
+    if (lookahead.code == KW_T)
+    {
+        switch (lookahead.attribute.codeType)
+        {
+            case CASE:
+                matchToken(KW_T, CASE);
+                matchToken(ID_T, NO_ATTR);
+                matchToken(SEP_T, COLON);
+                optionalStatements();
+            case DEFAULT:
+                matchToken(KW_T, CASE);
+                matchToken(SEP_T, COLON);
+                optionalStatements();
+        }
+    }
+    printf("%s%s\n", STR_LANGNAME, ": Case block parsed");
+}
+
+zero_null assignmentStatement()
+{
     assignmentExpression();
     printf("%s%s\n", STR_LANGNAME, ": Assignment statement parsed");
 }
 
-zero_null assignmentExpression() {
-    matchToken(ID_T,NO_ATTR);
-    matchToken(ASS_OP_T,NO_ATTR);
+zero_null assignmentExpression()
+{
+    matchToken(ID_T, NO_ATTR);
+    matchToken(ASS_OP_T, NO_ATTR);
     expression();
     printf("%s%s\n", STR_LANGNAME, ": Assignment expression parsed");
 }
-/* TO_DO: Continue developing the non-terminal functions */
+
+zero_null conditionalExpression()
+{
+
+}
+
+zero_null logicalOrExpression()
+{
+
+}
+
+zero_null logicalNotExpression()
+{
+    matchToken(LOG_OP_T, NOT);
+    relationalExpression();
+}
+
+zero_null logicalAndExpression()
+{
+
+}
+
+zero_null relationalExpression()
+{
+
+}
