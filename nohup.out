@@ -1,0 +1,103 @@
+QCoreApplication::applicationDirPath: Please instantiate the QApplication object first
+Crashdump ENABLED,  directory is: /home/jlcarveth/.ts3client/crashdumps
+DUMP defined! Dumpdir is: /home/jlcarveth/.ts3client/crashdumps
+2021-08-14 22:56:20.018371|INFO    |              |   |TeamSpeak Client 3.5.6 (2020-11-25 13:53:42)
+2021-08-14 22:56:20.018413|INFO    |              |   |SystemInformation: Linux 5.8.0-63-generic #71~20.04.1-Ubuntu SMP Thu Jul 15 17:46:08 UTC 2021 x86_64 Binary: 64bit
+2021-08-14 22:56:20.018426|INFO    |              |   |Using hardware aes
+2021-08-14 22:56:20.046924|DEBUG   |PulseAudio    |   |connected to pulse audio server - 
+2021-08-14 22:56:20.344650|INFO    |ClientUI      |   |OpenGL Info: LibGL, Vendor: NVIDIA Corporation, Renderer: GeForce GTX 970/PCIe/SSE2, Version: 4.6.0 NVIDIA 460.91.03
+2021-08-14 22:56:20.381083|INFO    |Addons        |   |Checking for addon updates...
+2021-08-14 22:56:20.408328|INFO    |Plugins       |   |Loading plugin: libclientquery_plugin_linux_amd64.so
+2021-08-14 22:56:20.411784|INFO    |Query         |   |listening on 127.0.0.1:25639
+ClientQueryPlugin: currentServerConnectionChanged 1 (0)
+2021-08-14 22:56:20.623961|INFO    |              |   |*** Time [MAINWINDOW]: 152
+2021-08-14 22:56:20.624009|INFO    |              |   |*** Time [INIT]: 153
+2021-08-14 22:56:20.625822|INFO    |ClientUI      |   |Failed to init text to speech engine
+2021-08-14 22:56:20.625857|INFO    |ClientUI      |   |Qt version: 5.12.1
+2021-08-14 22:56:20.625872|INFO    |ClientUI      |   |Using configuration location: /home/jlcarveth/.ts3client/settings.db
+2021-08-14 22:56:20.846007|INFO    |Addon         |   |Addon up to date.
+2021-08-14 22:56:21.124567|INFO    |Bookmarks     |   |Collecting autoconnect bookmarks
+2021-08-14 22:56:21.124744|INFO    |ClientUI      |   |Last update check was: Tue. Aug. 10 09:48:58 2021
+2021-08-14 22:56:21.145965|INFO    |Update        |   |Checking for updates...
+2021-08-14 22:56:21.441217|INFO    |Update        |   |License update available; version 5 to 5 (min version 5 to 4)
+2021-08-14 22:56:21.441281|INFO    |Update        |   |Latest client release on channel 'stable': 3.5.6 [Build: 1606312422]
+2021-08-14 22:56:21.441304|INFO    |Update        |   |Client is up-to-date
+2021-08-14 22:56:21.441362|INFO    |              |   |Statistics report: Not yet, next report on Sat. Aug. 28 15:41:47 2021
+2021-08-14 22:56:21.532385|INFO    |              |   |successfully downloaded revocation list for accounting
+2021-08-14 22:56:21.625165|INFO    |Newsticker    |   |Newsticker next check: Wed. Aug. 11 13:48:59 2021 GMT
+2021-08-14 22:56:21.679379|INFO    |              |   |successfully downloaded revocation list for myteamspeak id
+2021-08-14 22:56:21.927654|INFO    |Newsticker    |   |Newsticker received for language en, expires on Sun. Aug. 15 22:56:21 2021 GMT, next check in 86399 seconds
+2021-08-14 22:56:27.151786|INFO    |ClientUI      |1  |Connect to server: ts.slycealliance.com
+2021-08-14 22:56:27.153323|INFO    |ClientUI      |1  |Trying to resolve ts.slycealliance.com
+2021-08-14 22:56:27.182795|INFO    |TSDNS         |   |A/AAAA DNS resolve for possible TSDNS successful, "slycealliance.com" =(h: 65.100.168.81 p:0)
+2021-08-14 22:56:27.200141|INFO    |TSDNS         |   |A/AAAA DNS resolve successful, "ts.slycealliance.com" =(h: 3.19.211.91 p:0)
+2021-08-14 22:56:27.200210|INFO    |TSDNS         |   |A/AAAA DNS resolve for possible TSDNS successful, "ts.slycealliance.com" =(h: 3.19.211.91 p:0)
+2021-08-14 22:56:27.220326|INFO    |TSDNS         |   |SRV DNS resolve unsuccessful, "_tsdns._tcp.slycealliance.com" Domain name not found
+2021-08-14 22:56:27.222140|INFO    |TSDNS         |   |SRV DNS resolve unsuccessful, "_ts3._udp.ts.slycealliance.com" Domain name not found
+2021-08-14 22:56:27.249719|INFO    |TSDNS         |   |TSDNS queried unsuccessfully 3.19.211.91:41144
+2021-08-14 22:56:27.249774|INFO    |TSDNS         |   |No TSDNS found
+2021-08-14 22:56:29.182926|INFO    |TSDNS         |   |TSDNS queried unsuccessfully 65.100.168.81:41144
+2021-08-14 22:56:29.182978|INFO    |TSDNS         |   |No TSDNS found
+2021-08-14 22:56:29.183019|INFO    |ClientUI      |1  |Lookup finished: ip=3.19.211.91 port=9987 query=ts.slycealliance.com error=0
+2021-08-14 22:56:29.183056|INFO    |ClientUI      |1  |Resolve successful: 3.19.211.91:9987
+2021-08-14 22:56:29.183076|INFO    |ClientUI      |1  |Initiating connection: 3.19.211.91:9987
+2021-08-14 22:56:29.346416|INFO    |ClientUI      |1  |Connect status: Connecting
+2021-08-14 22:56:29.427476|DEVELOP |PktHandler    |1  |Puzzle solve time: 2
+2021-08-14 22:56:29.577860|INFO    |ClientUI      |1  |Connect status: Connected
+2021-08-14 22:56:29.611033|INFO    |ClientUI      |1  |Connect status: Establishing connection
+2021-08-14 22:56:29.726465|INFO    |ClientUI      |1  |Connect status: Connection established
+2021-08-14 23:59:33.714814|INFO    |ClientUI      |   |Request already running, aborting avatar request
+2021-08-15 00:31:36.416152|INFO    |ClientUI      |1  |Connect status: Disconnected
+2021-08-15 00:31:36.416664|INFO    |ClientUI      |1  |Disconnected or forced to leave, want autoreconnect = 0
+pool dtor
+Settings path:  "/home/jlcarveth/.config/CCP/EVE.conf"
+Language selected based on stored settings:  "en"
+QObject::startTimer: Timers can only be used with threads started with QThread
+[0814/203329.854901:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+Installed Qt WebEngine locales directory not found at location /opt/evelauncher/translations/qtwebengine_locales. Trying application directory...
+Qt WebEngine locales directory not found at location /opt/evelauncher/qtwebengine_locales. Trying fallback directory... Translations MAY NOT not be correct.
+[0814/203329.882109:WARNING:resource_bundle_qt.cpp(116)] locale_file_path.empty() for locale 
+[S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.
+[S_API FAIL] SteamAPI_Init() failed; unable to locate a running instance of Steam, or a local steamclient.so.
+[467059:467096:0814/203332.339489:ERROR:service_worker_storage.cc(2104)] Failed to delete the database: Database IO error
+QCoreApplication::applicationDirPath: Please instantiate the QApplication object first
+Crashdump ENABLED,  directory is: /home/jlcarveth/.ts3client/crashdumps
+DUMP defined! Dumpdir is: /home/jlcarveth/.ts3client/crashdumps
+2021-08-15 00:33:32.865963|INFO    |              |   |TeamSpeak Client 3.5.6 (2020-11-25 13:53:42)
+2021-08-15 00:33:32.865999|INFO    |              |   |SystemInformation: Linux 5.8.0-63-generic #71~20.04.1-Ubuntu SMP Thu Jul 15 17:46:08 UTC 2021 x86_64 Binary: 64bit
+2021-08-15 00:33:32.866012|INFO    |              |   |Using hardware aes
+2021-08-15 00:33:32.885018|DEBUG   |PulseAudio    |   |connected to pulse audio server - 
+2021-08-15 00:33:33.196570|INFO    |ClientUI      |   |OpenGL Info: LibGL, Vendor: NVIDIA Corporation, Renderer: GeForce GTX 970/PCIe/SSE2, Version: 4.6.0 NVIDIA 460.91.03
+2021-08-15 00:33:33.209674|INFO    |Addons        |   |Checking for addon updates...
+2021-08-15 00:33:33.223616|INFO    |Plugins       |   |Loading plugin: libclientquery_plugin_linux_amd64.so
+2021-08-15 00:33:33.224186|INFO    |Query         |   |listening on 127.0.0.1:25639
+ClientQueryPlugin: currentServerConnectionChanged 1 (0)
+2021-08-15 00:33:33.367638|INFO    |              |   |*** Time [MAINWINDOW]: 242
+2021-08-15 00:33:33.367686|INFO    |              |   |*** Time [INIT]: 242
+2021-08-15 00:33:33.368704|INFO    |ClientUI      |   |Failed to init text to speech engine
+2021-08-15 00:33:33.368733|INFO    |ClientUI      |   |Qt version: 5.12.1
+2021-08-15 00:33:33.368748|INFO    |ClientUI      |   |Using configuration location: /home/jlcarveth/.ts3client/settings.db
+2021-08-15 00:33:33.510484|INFO    |Addon         |   |Addon up to date.
+2021-08-15 00:33:33.868491|INFO    |Bookmarks     |   |Collecting autoconnect bookmarks
+2021-08-15 00:33:33.868657|INFO    |ClientUI      |   |Last update check was: Sat. Aug. 14 18:56:21 2021
+2021-08-15 00:33:33.868752|INFO    |              |   |Statistics report: Not yet, next report on Sat. Aug. 28 15:41:47 2021
+2021-08-15 00:33:34.367974|INFO    |Newsticker    |   |Newsticker next check: Sun. Aug. 15 22:56:21 2021 GMT
+2021-08-15 00:33:36.446600|INFO    |ClientUI      |1  |Connect to server: ts.slycealliance.com
+2021-08-15 00:33:36.448418|INFO    |ClientUI      |1  |Trying to resolve ts.slycealliance.com
+2021-08-15 00:33:36.503002|INFO    |TSDNS         |   |SRV DNS resolve unsuccessful, "_tsdns._tcp.slycealliance.com" Domain name not found
+2021-08-15 00:33:36.503554|INFO    |TSDNS         |   |SRV DNS resolve unsuccessful, "_ts3._udp.ts.slycealliance.com" Domain name not found
+2021-08-15 00:33:36.520429|INFO    |TSDNS         |   |A/AAAA DNS resolve for possible TSDNS successful, "ts.slycealliance.com" =(h: 3.19.211.91 p:0)
+2021-08-15 00:33:36.520507|INFO    |TSDNS         |   |A/AAAA DNS resolve successful, "ts.slycealliance.com" =(h: 3.19.211.91 p:0)
+2021-08-15 00:33:36.558364|INFO    |TSDNS         |   |A/AAAA DNS resolve for possible TSDNS successful, "slycealliance.com" =(h: 65.100.168.81 p:0)
+2021-08-15 00:33:36.574414|INFO    |TSDNS         |   |TSDNS queried unsuccessfully 3.19.211.91:41144
+2021-08-15 00:33:36.574462|INFO    |TSDNS         |   |No TSDNS found
+2021-08-15 00:33:38.558499|INFO    |TSDNS         |   |TSDNS queried unsuccessfully 65.100.168.81:41144
+2021-08-15 00:33:38.558592|INFO    |TSDNS         |   |No TSDNS found
+2021-08-15 00:33:38.558681|INFO    |ClientUI      |1  |Lookup finished: ip=3.19.211.91 port=9987 query=ts.slycealliance.com error=0
+2021-08-15 00:33:38.558750|INFO    |ClientUI      |1  |Resolve successful: 3.19.211.91:9987
+2021-08-15 00:33:38.558787|INFO    |ClientUI      |1  |Initiating connection: 3.19.211.91:9987
+2021-08-15 00:33:38.722920|INFO    |ClientUI      |1  |Connect status: Connecting
+2021-08-15 00:33:38.798396|DEVELOP |PktHandler    |1  |Puzzle solve time: 3
+2021-08-15 00:33:38.955348|INFO    |ClientUI      |1  |Connect status: Connected
+2021-08-15 00:33:38.990811|INFO    |ClientUI      |1  |Connect status: Establishing connection
+2021-08-15 00:33:39.102483|INFO    |ClientUI      |1  |Connect status: Connection established

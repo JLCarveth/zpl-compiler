@@ -53,5 +53,6 @@ typedef unsigned char   zero_flag;
 typedef char            zero_bool;
 typedef char            *zero_string;
 typedef void            *zero_array;
+typedef void            zero_null;
 
 #endif
