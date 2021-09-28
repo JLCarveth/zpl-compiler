@@ -339,6 +339,11 @@ zero_null ifElseStatement()
     printf("%s%s\n", STR_LANGNAME, ": If else statement parsed");
 }
 
+zero_null ifElseStatements()
+{
+    
+}
+
 zero_null switchStatement()
 {
     matchToken(KW_T, SWITCH);
