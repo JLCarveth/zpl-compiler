@@ -1,17 +1,17 @@
 ﻿/*************************************************************
-* COMPILERS COURSE - Algonquin College
-* Code version: Summer, 2021
-* Author: Svillen Ranev - Paulo Sousa.
-*************************************************************
-* File name: Parser.c
-* Compiler: MS Visual Studio 2019
-* Course: CST 8152 – Compilers, Lab Section: [011, 012, 013]
-* Assignment: A3.
-* Date: May 01 2021
-* Professor: Paulo Sousa
-* Purpose: This file contains all functionalities from Parser.
-* Function list: (...).
-*************************************************************/
+ * COMPILERS COURSE - Algonquin College
+ * Code version: Summer, 2021
+ * Author: Svillen Ranev - Paulo Sousa.
+ *************************************************************
+ * File name: Parser.c
+ * Compiler: MS Visual Studio 2019
+ * Course: CST 8152 – Compilers, Lab Section: [011, 012, 013]
+ * Assignment: A3.
+ * Date: May 01 2021
+ * Professor: Paulo Sousa
+ * Purpose: This file contains all functionalities from Parser.
+ * Function list: (...).
+ *************************************************************/
 
 #ifndef COMPILERS_H_
 #include "Compilers.h"
@@ -131,7 +131,7 @@ zero_null program()
             matchToken(KW_T, PROGRAM);
             matchToken(ID_T, NO_ATTR);
             matchToken(SEP_T, LEFT_CURLY);
-            separators();
+            statements();
             matchToken(SEP_T, RIGHT_CURLY);
             break;
         }
@@ -145,6 +145,73 @@ zero_null program()
         printError();
     }
     printf("%s%s\n", STR_LANGNAME, ": Program parsed");
+}
+
+/**
+ * Variable Declaration
+ * BNF: <variableDeclaration> -> <datatype> <varlist>
+ * FIRST(<variableDeclaration>) = {KW_T(int, short, ...), ID_T};
+ */
+zero_null variableDeclaration() {
+    datatype();
+    varlist();
+    printf("%s%s\n", STR_LANGNAME, ": Variable declaration parsed.");
+}
+
+/**
+ * @brief Matches the <datatype> non-terminal
+ * BNF: <datatype> -> short | int | long | float | double | String | char | ID_T
+ *      FIRST(<datatype>) = { KW_T(int, short, ...), ID_T }
+ * @return zero_null 
+ */
+zero_null datatype() {
+    switch (lookahead.code) {
+        case KW_T:
+            if (lookahead.attribute.codeType == SHORT) {
+                matchToken(KW_T, SHORT);
+                break;
+            }
+            if (lookahead.attribute.codeType == INT) {
+                matchToken(KW_T, INT);
+            }
+            if (lookahead.attribute.codeType == LONG)
+            {
+                matchToken(KW_T, LONG);
+            }
+            if (lookahead.attribute.codeType == FLOAT)
+            {
+                matchToken(KW_T, FLOAT);
+            }
+            if (lookahead.attribute.codeType == DOUBLE)
+            {
+                matchToken(KW_T, DOUBLE);
+            }
+            if (lookahead.attribute.codeType == STRING)
+            {
+                matchToken(KW_T, STRING);
+            }
+            if (lookahead.attribute.codeType == CHAR)
+            {
+                matchToken(KW_T, CHAR);
+            }
+        case ID_T:
+            matchToken(ID_T, NO_ATTR);
+            break;
+        default: 
+            printError();
+    }
+    printf("%s%s\n", STR_LANGNAME, ": Datatype parsed");
+}
+
+/**
+ * @brief Matches the <varlist> non-terminal
+ * BNF: <varlist> -> <identifier> <varlistPrime>
+ * @return zero_null 
+ */
+zero_null varlist() {
+    matchToken(ID_T, NO_ATTR);
+    varlistPrime();
+    printf("%s%s\n", STR_LANGNAME, ": Varlist parsed.");
 }
 
 /*************************************************************
@@ -172,11 +239,9 @@ zero_null optionalStatements()
     switch (lookahead.code)
     {
     case KW_T:
-        if (lookahead.attribute.codeType == WRITE)
-        {
-            statements();
-            break;
-        }
+    case ID_T:
+        statements();
+        break;
     default:; // Empty
     }
     printf("%s%s\n", STR_LANGNAME, ": Optional statements parsed");
@@ -198,7 +263,7 @@ zero_null statements()
 /*************************************************************
  * Statements Prime
  * BNF: <statementsPrime>  <statement><statementsPrime> | ϵ
- * FIRST(<statementsPrime>) = { ϵ , IVID_T, FVID_T, SVID_T, 
+ * FIRST(<statementsPrime>) = { ϵ , IVID_T, FVID_T, SVID_T,
  *		KW_T(IF), KW_T(WHILE), KW_T(READ), KW_T(WRITE) }
  ************************************************************/
 zero_null statementsPrime()
@@ -206,13 +271,18 @@ zero_null statementsPrime()
     switch (lookahead.code)
     {
     case KW_T:
-        if (lookahead.attribute.codeType == WRITE)
+        if (lookahead.attribute.codeType == WRITE ||
+            lookahead.attribute.codeType == READ ||
+            lookahead.attribute.codeType == IF ||
+            lookahead.attribute.codeType == ELSE ||
+            lookahead.attribute.codeType == WHILE ||
+            lookahead.attribute.codeType == SWITCH)
         {
             statement();
             statementsPrime();
             break;
         }
-    default:; //empty string
+    default:; // empty string
     }
 }
 
@@ -237,6 +307,7 @@ zero_null statement()
             inputStatement();
             break;
         case IF:
+        case ELSE:
             selectionStatement();
             break;
         case FOR:
@@ -255,6 +326,88 @@ zero_null statement()
     printf("%s%s\n", STR_LANGNAME, ": Statement parsed");
 }
 
+zero_null iterationStatement()
+{
+    switch (lookahead.code)
+    {
+    case KW_T:
+        switch (lookahead.attribute.codeType)
+        {
+        case WHILE:
+            whileStatement();
+            break;
+        case DO:
+            doWhileStatement();
+            break;
+        case FOR:
+            forStatement();
+            break;
+        case FOREACH:
+            forEachStatement();
+            break;
+        default:
+            printError();
+            break;
+        }
+    default:
+        printError();
+        break;
+    }
+}
+
+zero_null whileStatement()
+{
+    matchToken(KW_T, WHILE);
+    matchToken(SEP_T, LEFT_PARENS);
+    conditionalExpression();
+    matchToken(SEP_T, RIGHT_PARENS);
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+}
+
+zero_null doWhileStatement()
+{
+    matchToken(KW_T, DO);
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+    matchToken(KW_T, WHILE);
+    matchToken(SEP_T, LEFT_PARENS);
+    conditionalExpression();
+    matchToken(SEP_T, RIGHT_PARENS);
+}
+
+zero_null forStatement()
+{
+    matchToken(KW_T, FOR);
+    matchToken(SEP_T, LEFT_PARENS);
+    assignmentExpression();
+    matchToken(SEP_T, SEMICOLON);
+    conditionalExpression();
+    matchToken(SEP_T, SEMICOLON);
+    arithmeticExpression();
+    matchToken(SEP_T, RIGHT_PARENS);
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+}
+
+zero_null forEachStatement()
+{
+    matchToken(KW_T, FOREACH);
+    matchToken(SEP_T, LEFT_PARENS);
+    matchToken(ID_T, NO_ATTR);
+    matchToken(KW_T, IN);
+    listGroup();
+    matchToken(SEP_T, LEFT_CURLY);
+    optionalStatements();
+    matchToken(SEP_T, RIGHT_CURLY);
+}
+
+zero_null listGroup()
+{
+}
 /*************************************************************
  * Output Statement
  * BNF: <output statement> -> WRITE (<output statementPrime>);
@@ -303,7 +456,7 @@ zero_null selectionStatement()
         case IF:
             matchToken(KW_T, IF);
             break;
-        case WHILE:
+        case WHILE: // Should BE IF, IF ELSE, SWITCH... NOT WHILE
             matchToken(KW_T, WHILE);
             break;
         }
@@ -341,7 +494,6 @@ zero_null ifElseStatement()
 
 zero_null ifElseStatements()
 {
-    
 }
 
 zero_null switchStatement()
@@ -364,7 +516,24 @@ zero_null switchBlock()
 
 zero_null caseBlocks()
 {
+    statement();
+    statementsPrime();
+    printf("%s%s\n", STR_LANGNAME, ": Case blocks parsed");
+}
 
+zero_null caseBlockPrime()
+{
+    switch (lookahead.code)
+    {
+    case KW_T:
+        if (lookahead.attribute.codeType == CASE)
+        {
+            caseBlock();
+            caseBlockPrime();
+            break;
+        }
+    default:;
+    }
 }
 
 zero_null caseBlock()
@@ -373,15 +542,17 @@ zero_null caseBlock()
     {
         switch (lookahead.attribute.codeType)
         {
-            case CASE:
-                matchToken(KW_T, CASE);
-                matchToken(ID_T, NO_ATTR);
-                matchToken(SEP_T, COLON);
-                optionalStatements();
-            case DEFAULT:
-                matchToken(KW_T, CASE);
-                matchToken(SEP_T, COLON);
-                optionalStatements();
+        case CASE:
+            matchToken(KW_T, CASE);
+            matchToken(ID_T, NO_ATTR);
+            matchToken(SEP_T, COLON);
+            optionalStatements();
+            break;
+        case DEFAULT:
+            matchToken(KW_T, CASE);
+            matchToken(SEP_T, COLON);
+            optionalStatements();
+            break;
         }
     }
     printf("%s%s\n", STR_LANGNAME, ": Case block parsed");
@@ -403,12 +574,10 @@ zero_null assignmentExpression()
 
 zero_null conditionalExpression()
 {
-
 }
 
 zero_null logicalOrExpression()
 {
-
 }
 
 zero_null logicalNotExpression()
@@ -419,10 +588,50 @@ zero_null logicalNotExpression()
 
 zero_null logicalAndExpression()
 {
-
 }
 
 zero_null relationalExpression()
 {
+}
+/*************************************************************
+ * Expression
+ * BNF: <expression> -> <term> <expressionPrime>
+ * FIRST(<expression>) = { KW_T(...) }
+ ************************************************************/
+zero_null expression() {
+    term();
+    expressionPrime();
+}
+
+/*************************************************************
+ * ExpressionPrime
+ * BNF: <expressionPrime> -> + <term> <expressionPrime>
+ *                          | - <term> <expressionPrime>
+ *                          | ε
+ * FIRST(<output statement>) = { KW_T(...) }
+ ************************************************************/
+zero_null expressionPrime() {
+    switch (lookahead.code) {
+        case ART_OP_T:
+            switch (lookahead.attribute.arithmeticOperator) {
+                case ADD:
+                case SUB:
+                    term();
+                    expressionPrime();
+            }
+            break;
+        default://empty
+            break;
+    }
+}
+
+/*************************************************************
+ * Term
+ * BNF: <term> -> <term><factorPrime>
+ * FIRST(<output statement>) = { KW_T(...) }
+ ************************************************************/
+zero_null term() {
 
 }
+zero_null factor();
+zero_null literal();
