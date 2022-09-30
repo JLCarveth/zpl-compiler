@@ -152,7 +152,8 @@ zero_null program()
  * BNF: <variableDeclaration> -> <datatype> <varlist>
  * FIRST(<variableDeclaration>) = {KW_T(int, short, ...), ID_T};
  */
-zero_null variableDeclaration() {
+zero_null variableDeclaration()
+{
     datatype();
     varlist();
     printf("%s%s\n", STR_LANGNAME, ": Variable declaration parsed.");
@@ -162,43 +163,47 @@ zero_null variableDeclaration() {
  * @brief Matches the <datatype> non-terminal
  * BNF: <datatype> -> short | int | long | float | double | String | char | ID_T
  *      FIRST(<datatype>) = { KW_T(int, short, ...), ID_T }
- * @return zero_null 
+ * @return zero_null
  */
-zero_null datatype() {
-    switch (lookahead.code) {
-        case KW_T:
-            if (lookahead.attribute.codeType == SHORT) {
-                matchToken(KW_T, SHORT);
-                break;
-            }
-            if (lookahead.attribute.codeType == INT) {
-                matchToken(KW_T, INT);
-            }
-            if (lookahead.attribute.codeType == LONG)
-            {
-                matchToken(KW_T, LONG);
-            }
-            if (lookahead.attribute.codeType == FLOAT)
-            {
-                matchToken(KW_T, FLOAT);
-            }
-            if (lookahead.attribute.codeType == DOUBLE)
-            {
-                matchToken(KW_T, DOUBLE);
-            }
-            if (lookahead.attribute.codeType == STRING)
-            {
-                matchToken(KW_T, STRING);
-            }
-            if (lookahead.attribute.codeType == CHAR)
-            {
-                matchToken(KW_T, CHAR);
-            }
-        case ID_T:
-            matchToken(ID_T, NO_ATTR);
+zero_null datatype()
+{
+    switch (lookahead.code)
+    {
+    case KW_T:
+        if (lookahead.attribute.codeType == SHORT)
+        {
+            matchToken(KW_T, SHORT);
             break;
-        default: 
-            printError();
+        }
+        if (lookahead.attribute.codeType == INT)
+        {
+            matchToken(KW_T, INT);
+        }
+        if (lookahead.attribute.codeType == LONG)
+        {
+            matchToken(KW_T, LONG);
+        }
+        if (lookahead.attribute.codeType == FLOAT)
+        {
+            matchToken(KW_T, FLOAT);
+        }
+        if (lookahead.attribute.codeType == DOUBLE)
+        {
+            matchToken(KW_T, DOUBLE);
+        }
+        if (lookahead.attribute.codeType == STRING)
+        {
+            matchToken(KW_T, STRING);
+        }
+        if (lookahead.attribute.codeType == CHAR)
+        {
+            matchToken(KW_T, CHAR);
+        }
+    case ID_T:
+        matchToken(ID_T, NO_ATTR);
+        break;
+    default:
+        printError();
     }
     printf("%s%s\n", STR_LANGNAME, ": Datatype parsed");
 }
@@ -206,9 +211,10 @@ zero_null datatype() {
 /**
  * @brief Matches the <varlist> non-terminal
  * BNF: <varlist> -> <identifier> <varlistPrime>
- * @return zero_null 
+ * @return zero_null
  */
-zero_null varlist() {
+zero_null varlist()
+{
     matchToken(ID_T, NO_ATTR);
     varlistPrime();
     printf("%s%s\n", STR_LANGNAME, ": Varlist parsed.");
@@ -262,7 +268,7 @@ zero_null statements()
 
 /*************************************************************
  * Statements Prime
- * BNF: <statementsPrime>  <statement><statementsPrime> | ϵ
+ * BNF: <statementsPrime> -> <statement><statementsPrime> | ϵ
  * FIRST(<statementsPrime>) = { ϵ , IVID_T, FVID_T, SVID_T,
  *		KW_T(IF), KW_T(WHILE), KW_T(READ), KW_T(WRITE) }
  ************************************************************/
@@ -532,7 +538,8 @@ zero_null caseBlockPrime()
             caseBlockPrime();
             break;
         }
-    default:;
+    default:
+        printError();
     }
 }
 
@@ -553,6 +560,8 @@ zero_null caseBlock()
             matchToken(SEP_T, COLON);
             optionalStatements();
             break;
+        default:
+            printError();
         }
     }
     printf("%s%s\n", STR_LANGNAME, ": Case block parsed");
@@ -598,7 +607,8 @@ zero_null relationalExpression()
  * BNF: <expression> -> <term> <expressionPrime>
  * FIRST(<expression>) = { KW_T(...) }
  ************************************************************/
-zero_null expression() {
+zero_null expression()
+{
     term();
     expressionPrime();
 }
@@ -610,18 +620,21 @@ zero_null expression() {
  *                          | ε
  * FIRST(<output statement>) = { KW_T(...) }
  ************************************************************/
-zero_null expressionPrime() {
-    switch (lookahead.code) {
-        case ART_OP_T:
-            switch (lookahead.attribute.arithmeticOperator) {
-                case ADD:
-                case SUB:
-                    term();
-                    expressionPrime();
-            }
-            break;
-        default://empty
-            break;
+zero_null expressionPrime()
+{
+    switch (lookahead.code)
+    {
+    case ART_OP_T:
+        switch (lookahead.attribute.arithmeticOperator)
+        {
+        case ADD:
+        case SUB:
+            term();
+            expressionPrime();
+        }
+        break;
+    default: // empty
+        break;
     }
 }
 
@@ -630,8 +643,79 @@ zero_null expressionPrime() {
  * BNF: <term> -> <term><factorPrime>
  * FIRST(<output statement>) = { KW_T(...) }
  ************************************************************/
-zero_null term() {
-
+zero_null term()
+{
+    factor();
+    termPrime();
 }
-zero_null factor();
-zero_null literal();
+
+/**
+ * @brief Matches the <termPrime> non-terminal
+ * BNF: <termPrime> -> * <factor> <termPrime>
+ *                   | / <factor> <termPrime>
+ *                   | ε
+ * @return zero_null
+ */
+zero_null termPrime()
+{
+    switch (lookahead.code)
+    {
+    case ART_OP_T:
+        switch (lookahead.attribute.arithmeticOperator)
+        {
+        case MUL:
+        case DIV:
+            factor();
+            termPrime();
+        }
+        break;
+    default: // empty
+        break;
+    }
+}
+
+/**
+ * @brief Matches the <factor> non-terminal
+ * BNF: <factor> -> ( <expression> ) | - <expression> | ϵ
+ * @return zero_null
+ */
+zero_null factor()
+{
+    switch (lookahead.code)
+    {
+    case SEP_T:
+        if (lookahead.attribute.separatorType == LEFT_PARENS)
+        {
+            matchToken(SEP_T, LEFT_PARENS);
+            expression();
+            matchToken(SEP_T, RIGHT_PARENS);
+        }
+        break;
+    /* is it really right to use an artihmetic substitution, rather than
+     separate unary negative operator?
+     TODO: Implement unary operators (+,-,++,--,~) */
+    case ART_OP_T:
+        if (lookahead.attribute.arithmeticOperator == SUB)
+        {
+            expression();
+        }
+        break;
+    default:
+        printError();
+    }
+}
+
+zero_null literal()
+{
+    switch (lookahead.code)
+    {
+    case INL_T:
+        matchToken(INL_T, lookahead.attribute.intValue);
+        break;
+    case FPL_T:
+        matchToken(FPL_T, lookahead.attribute.floatValue);
+        break;
+    default:
+        printError();
+    }
+}
