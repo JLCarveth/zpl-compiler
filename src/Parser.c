@@ -581,22 +581,70 @@ zero_null assignmentExpression()
     printf("%s%s\n", STR_LANGNAME, ": Assignment expression parsed");
 }
 
+/**
+ * @brief Matches the <conditional-expression> non-terminal
+ * BNF: <conditional-expression> -> <logical-OR-expression>
+ *
+ * @return zero_null
+ */
 zero_null conditionalExpression()
 {
+    logicalOrExpression();
+    printf("%s%s\n", STR_LANGNAME, ": Conditional expression parsed");
 }
 
+/**
+ * @brief Matches the <logical-OR-expression> non-terminal
+ * BNF: <logical-OR-expression> -> <logical-AND-expression> <logical-OR-expressionPrime>
+ *
+ * @return zero_null
+ */
 zero_null logicalOrExpression()
 {
+    logicalAndExpression();
+    logicalOrExpressionPrime();
+}
+
+/**
+ * @brief Matches the <logical-OR-expressionPrime> non-terminal
+ * BNF: <logical-OR-expressionPrime> -> || <logical-AND-expression> <logical-OR-expressionPrime>
+ *                                  | ϵ
+ * @return zero_null
+ */
+zero_null logicalOrExpressionPrime()
+{
+    switch (lookahead.code) {
+        case LOG_OP_T:
+            matchToken(LOG_OP_T, OR);
+            matchToken(LOG_OP_T, OR);
+            logicalAndExpression();
+            logicalOrExpressionPrime();
+            break;
+        default: ; // Empty
+    }
+    
 }
 
 zero_null logicalNotExpression()
 {
-    matchToken(LOG_OP_T, NOT);
-    relationalExpression();
+    switch (lookahead.code) {
+        case LOG_OP_T:
+            if (lookahead.attribute.logicalOperator == NOT) {
+                matchToken(LOG_OP_T, NOT);
+                relationalExpression();
+            } else printError();
+            break;
+        case INL_T:
+        case FPL_T:
+            relationalExpression();
+        default: printError();
+    }
 }
 
 zero_null logicalAndExpression()
 {
+    logicalNotExpression();
+    logicalAndExpressionPrime();
 }
 
 zero_null relationalExpression()
