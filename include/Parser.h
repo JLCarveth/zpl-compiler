@@ -72,7 +72,8 @@ enum KEYWORDS
 	DEFAULT,
 	PROGRAM,
 	WRITE,
-	READ
+	READ,
+  IN
 	/* TO_DO: Continue with your keywords */
 };
 
@@ -146,6 +147,20 @@ zero_null variableListPrime();
 zero_null varListDeclarations();
 zero_null varListDeclaration();
 zero_null varListDeclarationsPrime();
+
+zero_null datatype();
+zero_null varlist();
+zero_null varlistPrime();
+zero_null whileStatement();
+zero_null doWhileStatement();
+zero_null forStatement();
+zero_null forEachStatement();
+zero_null listGroup();
+zero_null expression();
+zero_null expressionPrime();
+zero_null term();
+zero_null termPrime();
+zero_null factor();
 //zero_null preCondition();
 
 #endif
