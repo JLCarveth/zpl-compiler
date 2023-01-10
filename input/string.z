@@ -1,0 +1,5 @@
+program HelloWorld {
+    /* Now let's try a comment */
+    string s = "Hello, World!";
+    write(s);
+}

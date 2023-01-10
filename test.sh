@@ -13,8 +13,8 @@ printf "* %-80s *\n" " / //\/ ___/ /___ / /__| (_) | | | | | | |_) | | |  __/ | 
 printf "* %-80s *\n" "/____/\/   \____/ \____/\___/|_| |_| |_| .__/|_|_|\___|_|   "
 printf "* %-80s *\n" "                                       |_|                  "
 printf "====================================================================================\n"
-printf "* %-80s *\n" "Made by John L. Carveth, 2021"
-printf "* %-80s *\n" "Version 0.1.0"
+printf "* %-80s *\n" "Made by John L. Carveth, 2023"
+printf "* %-80s *\n" "Version 0.2.0"
 printf "====================================================================================\n"
 
 printf "* %-80s *\n" "Beginning Zero Compiler tests ($NUM_TESTS)..."
@@ -32,5 +32,5 @@ do
     fi
 done
 printf "* %-80s *\n" "Completed $NUM_TESTS Tests."
-printf "* %-80s *\n" "$SUCCESSFUL_TESTS/2 Tests passed."
+printf "* %-80s *\n" "$SUCCESSFUL_TESTS/$NUM_TESTS Tests passed."
 printf "====================================================================================\n"

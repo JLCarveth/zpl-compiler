@@ -49,7 +49,7 @@ typedef char            zero_char;
 typedef long            zero_long;
 typedef float           zero_float;
 typedef double          zero_double;
-typedef unsigned char   zero_flag;
+typedef unsigned short  zero_flag;
 typedef char            zero_bool;
 typedef char            *zero_string;
 typedef void            *zero_array;

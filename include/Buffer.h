@@ -49,7 +49,7 @@ enum BUFFERMODES {
 #define ZERO_CHK_FLAG_RLB 0x80		/* 1000.0000 */
 #define ZERO_SET_FLAG_EOB 0x40		/* 0100.0000 */
 #define ZERO_RST_FLAG_EOB 0xBF		/* 1011.1111 */
-#define ZERO_CHK_FLAG_EOB 0x01		/* 0100.0000 */
+#define ZERO_CHK_FLAG_EOB 0x40		/* 0100.0000 */
 
 /* Logical constants - All booleans are by default false (0). Anything non-zero
 is percieved as true
@@ -65,7 +65,7 @@ typedef char			zero_char;
 typedef long			zero_long;
 typedef float			zero_float;
 typedef double 			zero_double;
-typedef unsigned char	zero_flag;
+typedef unsigned short	zero_flag;
 typedef char			zero_bool;
 typedef char* 			zero_string;
 typedef void*			zero_array;
@@ -86,8 +86,6 @@ typedef struct ZeroBuffer {
     zero_flag flags;  /* contains character array reallocation flag and end-of-buffer flag */
     Offset offset;
 } Buffer, * BufferPointer;
-
-/* FUNCTIONS DECLARATION:  .................................. */
 
 /* Function declarations */
 
